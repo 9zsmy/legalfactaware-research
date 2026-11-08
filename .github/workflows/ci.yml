@@ -1,0 +1,24 @@
+name: lightweight-checks
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Syntax check
+        run: PYTHONPYCACHEPREFIX=.cache/pycache python -m compileall -q src evaluation baselines experiments tools
+      - name: Dependency-light protocol tests
+        run: python -m unittest discover -s experiments/recent_baselines/tests -v
+      - name: Repository privacy audit
+        run: python tools/audit_repository.py .
+

@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" version="26.0.0" compressed="false">
+  <diagram id="motivation-text" name="Motivation example">
+    <mxGraphModel dx="900" dy="900" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="480" pageHeight="464" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="top-rule" value="" style="shape=line;strokeColor=#333333;strokeWidth=0.65;startArrow=none;endArrow=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16.0" y="14.0" width="448.0" height="0.0" />
+        </mxCell>
+        <mxCell id="source-heading" value="Source candidates" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=1;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16.0" y="19.12" width="131.41" height="20.8" />
+        </mxCell>
+        <mxCell id="schematic-label" value="Schematic example" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=13;fontColor=#444444;fontStyle=2;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="355.635" y="21.91" width="108.365" height="16.9" />
+        </mxCell>
+        <mxCell id="source-s1-id" value="s₁ [A]" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=15;fontColor=#111111;fontStyle=4;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="18.0" y="44.05" width="40.58" height="19.5" />
+        </mxCell>
+        <mxCell id="source-s1-line1-part1" value="A storm " style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="66.0" y="43.12" width="63.984" height="20.8" />
+        </mxCell>
+        <mxCell id="source-s1-line1-part2" value="closed the main road" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=4;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="121.984" y="43.12" width="140.428" height="20.8" />
+        </mxCell>
+        <mxCell id="source-s1-line1-part3" value=" near" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254.42" y="43.12" width="39.455" height="20.8" />
+        </mxCell>
+        <mxCell id="source-s1-line2-part1" value="the station early Tuesday." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="66.0" y="63.12" width="168.285" height="20.8" />
+        </mxCell>
+        <mxCell id="source-s1-length" value="60 chars" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=14;fontColor=#444444;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="409.197" y="44.98" width="54.803" height="18.2" />
+        </mxCell>
+        <mxCell id="source-s2-id" value="s₂ [A]" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=15;fontColor=#111111;fontStyle=4;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="18.0" y="91.05" width="40.58" height="19.5" />
+        </mxCell>
+        <mxCell id="source-s2-part1" value="The " style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="66.0" y="90.12" width="37.119" height="20.8" />
+        </mxCell>
+        <mxCell id="source-s2-part2" value="main road was shut" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=4;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="95.122" y="90.12" width="131.309" height="20.8" />
+        </mxCell>
+        <mxCell id="source-s2-part3" value=" after that storm." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="218.436" y="90.12" width="113.9" height="20.8" />
+        </mxCell>
+        <mxCell id="source-s2-length" value="40 chars" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=14;fontColor=#444444;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="409.197" y="91.98" width="54.803" height="18.2" />
+        </mxCell>
+        <mxCell id="source-s3-id" value="s₃ [B]" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=15;fontColor=#111111;fontStyle=1;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="18.0" y="118.05" width="41.33" height="19.5" />
+        </mxCell>
+        <mxCell id="source-s3-part1" value="Bus services resumed" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=1;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="66.0" y="117.12" width="153.824" height="20.8" />
+        </mxCell>
+        <mxCell id="source-s3-part2" value=" on Tuesday morning." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="211.823" y="117.12" width="145.711" height="20.8" />
+        </mxCell>
+        <mxCell id="source-s3-length" value="40 chars" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=14;fontColor=#444444;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="409.197" y="118.98" width="54.803" height="18.2" />
+        </mxCell>
+        <mxCell id="content-key-a" value="A: road closure" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=14;fontColor=#111111;fontStyle=4;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16.0" y="144.98" width="93.725" height="18.2" />
+        </mxCell>
+        <mxCell id="content-key-b" value="B: service resumption" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=14;fontColor=#111111;fontStyle=1;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="234.0" y="144.98" width="138.258" height="18.2" />
+        </mxCell>
+        <mxCell id="shared-budget" value="Output budget: 100 characters." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=14;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16.0" y="164.98" width="179.547" height="18.2" />
+        </mxCell>
+        <mxCell id="source-bottom-rule" value="" style="shape=line;strokeColor=#333333;strokeWidth=0.65;startArrow=none;endArrow=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16.0" y="194.0" width="448.0" height="0.0" />
+        </mxCell>
+        <mxCell id="overlap-heading" value="Overlapping choice" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=1;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16.0" y="199.12" width="139.562" height="20.8" />
+        </mxCell>
+        <mxCell id="overlap-s1-id" value="s₁ [A]" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=15;fontColor=#111111;fontStyle=4;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="18.0" y="224.05" width="40.58" height="19.5" />
+        </mxCell>
+        <mxCell id="overlap-s1-line1-part1" value="A storm " style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="66.0" y="223.12" width="63.984" height="20.8" />
+        </mxCell>
+        <mxCell id="overlap-s1-line1-part2" value="closed the main road" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=4;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="121.984" y="223.12" width="140.428" height="20.8" />
+        </mxCell>
+        <mxCell id="overlap-s1-line1-part3" value=" near" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254.42" y="223.12" width="39.455" height="20.8" />
+        </mxCell>
+        <mxCell id="overlap-s1-line2-part1" value="the station early Tuesday." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="66.0" y="243.12" width="168.285" height="20.8" />
+        </mxCell>
+        <mxCell id="overlap-other-id" value="s₂ [A]" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=15;fontColor=#111111;fontStyle=4;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="18.0" y="272.05" width="40.58" height="19.5" />
+        </mxCell>
+        <mxCell id="overlap-other-part1" value="The " style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="66.0" y="271.12" width="37.119" height="20.8" />
+        </mxCell>
+        <mxCell id="overlap-other-part2" value="main road was shut" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=4;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="95.122" y="271.12" width="131.309" height="20.8" />
+        </mxCell>
+        <mxCell id="overlap-other-part3" value=" after that storm." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="218.436" y="271.12" width="113.9" height="20.8" />
+        </mxCell>
+        <mxCell id="overlap-count" value="60 + 40 = 100 chars" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=14;fontColor=#444444;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16.0" y="296.98" width="119.596" height="18.2" />
+        </mxCell>
+        <mxCell id="overlap-result" value="A repeated; B omitted" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=14;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="332.094" y="296.98" width="131.906" height="18.2" />
+        </mxCell>
+        <mxCell id="overlap-bottom-rule" value="" style="shape=line;strokeColor=#333333;strokeWidth=0.65;startArrow=none;endArrow=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16.0" y="324.0" width="448.0" height="0.0" />
+        </mxCell>
+        <mxCell id="complement-heading" value="Complementary choice" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=1;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16.0" y="329.12" width="165.135" height="20.8" />
+        </mxCell>
+        <mxCell id="complement-s1-id" value="s₁ [A]" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=15;fontColor=#111111;fontStyle=4;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="18.0" y="354.05" width="40.58" height="19.5" />
+        </mxCell>
+        <mxCell id="complement-s1-line1-part1" value="A storm " style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="66.0" y="353.12" width="63.984" height="20.8" />
+        </mxCell>
+        <mxCell id="complement-s1-line1-part2" value="closed the main road" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=4;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="121.984" y="353.12" width="140.428" height="20.8" />
+        </mxCell>
+        <mxCell id="complement-s1-line1-part3" value=" near" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="254.42" y="353.12" width="39.455" height="20.8" />
+        </mxCell>
+        <mxCell id="complement-s1-line2-part1" value="the station early Tuesday." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="66.0" y="373.12" width="168.285" height="20.8" />
+        </mxCell>
+        <mxCell id="complement-other-id" value="s₃ [B]" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=15;fontColor=#111111;fontStyle=1;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="18.0" y="402.05" width="41.33" height="19.5" />
+        </mxCell>
+        <mxCell id="complement-other-part1" value="Bus services resumed" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=1;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="66.0" y="401.12" width="153.824" height="20.8" />
+        </mxCell>
+        <mxCell id="complement-other-part2" value=" on Tuesday morning." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="211.823" y="401.12" width="145.711" height="20.8" />
+        </mxCell>
+        <mxCell id="complement-count" value="60 + 40 = 100 chars" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=14;fontColor=#444444;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16.0" y="426.98" width="119.596" height="18.2" />
+        </mxCell>
+        <mxCell id="complement-result" value="A + B retained" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;fontFamily=Times New Roman;fontSize=14;fontColor=#111111;fontStyle=0;fillColor=none;strokeColor=none;resizable=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="373.131" y="426.98" width="90.869" height="18.2" />
+        </mxCell>
+        <mxCell id="complement-bottom-rule" value="" style="shape=line;strokeColor=#333333;strokeWidth=0.65;startArrow=none;endArrow=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="16.0" y="454.0" width="448.0" height="0.0" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

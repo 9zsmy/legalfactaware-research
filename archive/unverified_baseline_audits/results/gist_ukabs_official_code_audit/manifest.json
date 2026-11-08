@@ -1,0 +1,12 @@
+{
+  "experiment": "Gist released-code equivalence audit",
+  "documents": 100,
+  "exact_text_matches": 0,
+  "all_exact": false,
+  "runtime_shims": [
+    "gensim3 wv.vocab membership alias",
+    "sklearn legacy pickle module alias",
+    "LightGBM Booster predict_proba proxy",
+    "Windows feature-directory separator aliases"
+  ]
+}

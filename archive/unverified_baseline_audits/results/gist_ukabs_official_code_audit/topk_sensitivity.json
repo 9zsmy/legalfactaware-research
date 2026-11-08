@@ -1,0 +1,21 @@
+{
+  "paper": {
+    "rouge1_f": 42.7,
+    "rouge2_f": 13.2,
+    "rougeL_f": 21.5
+  },
+  "evaluation": {
+    "implementation": "rouge_score",
+    "use_stemmer": true,
+    "summary_order": "source_order",
+    "budget": "per-document reference word count",
+    "overflow": "break_on_first_over_budget_sentence"
+  },
+  "topk": {
+    "10": {"rouge1_f": 27.2876, "rouge2_f": 11.2271, "rougeL_f": 14.3615, "avg_selected_sentences": 10.0, "avg_used_words": 236.46},
+    "15": {"rouge1_f": 37.7167, "rouge2_f": 15.5349, "rougeL_f": 17.9440, "avg_selected_sentences": 14.98, "avg_used_words": 371.67},
+    "20": {"rouge1_f": 45.7671, "rouge2_f": 18.4213, "rougeL_f": 20.0700, "avg_selected_sentences": 19.93, "avg_used_words": 512.10},
+    "25": {"rouge1_f": 51.7480, "rouge2_f": 20.7731, "rougeL_f": 21.4151, "avg_selected_sentences": 24.8, "avg_used_words": 649.83},
+    "30": {"rouge1_f": 55.6296, "rouge2_f": 22.1704, "rougeL_f": 22.0954, "avg_selected_sentences": 29.41, "avg_used_words": 779.56}
+  }
+}

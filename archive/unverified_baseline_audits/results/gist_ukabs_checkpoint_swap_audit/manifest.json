@@ -1,0 +1,9 @@
+{
+  "experiment": "AACL2022-Gist-UK-Abs-official-checkpoint",
+  "compatibility_runner": true,
+  "feature_count": 334,
+  "word_embedding_mode": "released_character_loop",
+  "output_order": "source",
+  "published_model_class": "LGBMClassifier",
+  "documents": 100
+}

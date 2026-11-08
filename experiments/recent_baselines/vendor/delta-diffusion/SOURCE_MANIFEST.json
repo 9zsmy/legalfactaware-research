@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/DFKI-NLP/delta-diffusion",
+  "branch": "main",
+  "retrieved_at": "2026-10-31",
+  "files": {
+    "README.md": "b80a24cfc00fa07d815cdbfbb6ff8836a1fcf26d",
+    "LICENSE": "0e259d42c996742e9e3cba14c677129b2c1b6311",
+    "delta/diffusion_lm.py": "a5720e8ed750fb90a0390663de60e08759dfeccc",
+    "delta/eval_diffusion.py": "fae4b41eb2f5b98eb691a5b11d94823b5bc231b1",
+    "eval_metrics.py": "01e49897db6f54f763bf6e68bd3e6cc991988fdb"
+  },
+  "note": "Values are Git blob SHAs returned by the GitHub contents API. The CAIL adaptation is kept outside vendor/."
+}
+

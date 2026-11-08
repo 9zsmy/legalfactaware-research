@@ -1,0 +1,76 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python / Node caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+node_modules/
+
+# Environments and credentials
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Private data and document-level outputs
+data/
+datasets/
+private_data/
+**/data/*.jsonl
+*.jsonl
+*.ndjson
+predictions/
+traces/
+
+# Models and fitted artifacts
+models/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+
+# Generated outputs and archives
+outputs/
+tmp/
+temp/
+*.log
+*.exitcode
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# LaTeX build files (retain source figure PDFs)
+paper/main.pdf
+paper/*.aux
+paper/*.brf
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+

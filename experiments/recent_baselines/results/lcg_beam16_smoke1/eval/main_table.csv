@@ -1,0 +1,4 @@
+﻿method,cases,rouge_1_f1,rouge_2_f1,rouge_l_f1,expression_f1_document_macro,source_expression_support,mean_characters,p95_characters,mean_absolute_error_to_450,budget_violation_count,budget_violation_rate
+LegalFactAware-v2.5-B,1,0.6552217453505007,0.5222381635581061,0.5436337625178826,0.3333333333333333,1.0,441,441.0,9,0,0
+LCG-beam16-upper,1,0.4520255863539446,0.25695931477516065,0.3070362473347548,0.0,1.0,211,211.0,239,0,0
+LCG-beam16-exact,1,0.45786516853932585,0.23098591549295774,0.27247191011235955,0.0,0.8333333333333334,454,454.0,4,1,1

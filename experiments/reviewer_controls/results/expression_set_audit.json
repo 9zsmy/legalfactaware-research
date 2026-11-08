@@ -1,0 +1,12 @@
+{
+  "documents": 942,
+  "all_expression_types_empty": 0,
+  "all_empty_rate": 0.0,
+  "reference_nonempty_documents_by_type": {
+    "amount": 303,
+    "date": 93,
+    "law": 942,
+    "decision": 908
+  },
+  "note": "When all_expression_types_empty is zero, the all-empty score convention cannot affect the document-macro mean."
+}

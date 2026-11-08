@@ -1,0 +1,42 @@
+{
+  "experiment": "LegalFactAware-v2.5-B-formal-dev-ablation-20260821",
+  "status": "dev_complete_test_untouched",
+  "test_argument_exists": false,
+  "train_cases": 7495,
+  "dev_cases": 942,
+  "training_sentences": 428766,
+  "max_chars": 450,
+  "max_sentences": 8,
+  "fact_weight": 0.0,
+  "full_redundancy_weight": 0.2,
+  "redundancy_sweep": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "budget_curve": [
+    200,
+    250,
+    300,
+    350,
+    400,
+    450
+  ],
+  "structure_lambdas": [
+    0.01,
+    0.025,
+    0.05,
+    0.1
+  ],
+  "random_state": 42,
+  "python": "3.10.8",
+  "sklearn": "1.7.2",
+  "train_sha256": "8b19e6a1aa086e55c3a1d694e86cb4cf5abfe6929ee1258a3621b291bde564a2",
+  "dev_sha256": "1a056c68dcfa5f11e9574d5f1b818fa475bb5607ea7f6565e2868072a55de2c0",
+  "oracle_extracts_sha256": "de20bf0a98cb04de5f11f2b0869701fa5c940a392f5804f0b85a09fad5f19960",
+  "v22_model_sha256": "2cc0c9fe4b1fdaca6c1b2e37e545fcece3e5da83533296c1c12ba1d8bb8f70e9",
+  "frozen_v25_model_sha256": "65fc714698f22da944cab62cbc4d28022181c31fea4f9c3f783ee11f8d776539",
+  "script_sha256": "873bac305c023ff5b043d519236281442c8b66008fcc07eeb375c30473a9145e"
+}

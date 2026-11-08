@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "documents": 1,
+  "beam_size": 16,
+  "successful_documents": 0,
+  "total_proposals": 80,
+  "rows": [
+    {
+      "id": "f5e87d05913da0f49c51eeb2086aa9f9",
+      "objective": "exact",
+      "selected_beam": 1,
+      "characters": 454,
+      "success": false,
+      "proposals": 80
+    }
+  ]
+}

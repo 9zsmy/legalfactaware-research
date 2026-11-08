@@ -1,0 +1,28 @@
+{
+  "method": "sende",
+  "status": "complete",
+  "repeats": 1,
+  "model_load_seconds": 0.8658952564001083,
+  "warmup_seconds": 0.6617539413273335,
+  "runs": [
+    {
+      "method": "sende",
+      "repeat": 1,
+      "started_unix": 1793151133.7489145,
+      "elapsed_seconds": 19.73266232945025,
+      "stages_seconds": {
+        "read_preprocessing": 0.0940470490604639,
+        "representation_encoding": 16.922880057245493,
+        "scoring_forward": 2.552659623324871,
+        "constrained_decoding": 0.07474279962480068,
+        "serialization": 0.010793173685669899
+      },
+      "predictions": 948,
+      "prediction_sha256": "a1e7aeaaeb38e4634b3e082764047c0df4aa66f7a1230a66ff7201f56f3a84c5",
+      "output": "/root/autodl-tmp/sende_rerun_20261027/test_inference/sende/run_1/dev_predictions.jsonl"
+    }
+  ],
+  "started_unix": 1793151128.9545403,
+  "finished_unix": 1793151153.4836636,
+  "input_sha256": "5e9208643bb66bfdb0ac735f542cc64214668e53209d9373c07533997bb2490d"
+}

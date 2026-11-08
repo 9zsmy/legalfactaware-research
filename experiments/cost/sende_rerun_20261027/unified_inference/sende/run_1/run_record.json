@@ -1,0 +1,16 @@
+{
+  "method": "sende",
+  "repeat": 1,
+  "started_unix": 1793074489.7055962,
+  "elapsed_seconds": 20.346283121034503,
+  "stages_seconds": {
+    "read_preprocessing": 0.09599409438669682,
+    "representation_encoding": 17.57182473130524,
+    "scoring_forward": 2.5136222057044506,
+    "constrained_decoding": 0.07609374076128006,
+    "serialization": 0.010523401200771332
+  },
+  "predictions": 942,
+  "prediction_sha256": "7fa88fc12d82289dfa6ea481a3d661fbbde67afa2c4530e2a5226c64f54ac1cc",
+  "output": "/root/autodl-tmp/sende_rerun_20261027/unified_inference/sende/run_1/dev_predictions.jsonl"
+}

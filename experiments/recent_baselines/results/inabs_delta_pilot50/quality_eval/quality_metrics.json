@@ -1,0 +1,35 @@
+{
+  "cases": 50,
+  "official_test_contents_read": false,
+  "evaluation": "py-rouge==1.1 compatible Rouge; max_n=2; no length limit",
+  "comparison_status": "diagnostic only: DELTA uses a train-calibrated character target and may violate the 643-word upper bound",
+  "delta_f1_percent": {
+    "rouge-1": 52.57079304586553,
+    "rouge-2": 28.62671445501823,
+    "rouge-l": 48.59172858248261
+  },
+  "e1_643_subset_f1_percent": {
+    "rouge-1": 56.72894256970065,
+    "rouge-2": 33.235535830102926,
+    "rouge-l": 53.505642664707395
+  },
+  "paired_e1_minus_delta": {
+    "rouge-1": {
+      "mean": 0.04158149523835113,
+      "ci95_low": 0.027109330166616163,
+      "ci95_high": 0.05674304258246066
+    },
+    "rouge-2": {
+      "mean": 0.04608821375084686,
+      "ci95_low": 0.024395366728775125,
+      "ci95_high": 0.06704492892910456
+    },
+    "rouge-l": {
+      "mean": 0.04913914082224794,
+      "ci95_low": 0.03327859194081242,
+      "ci95_high": 0.06509415162611992
+    }
+  },
+  "delta_word_budget_violations": 17,
+  "source_truncated": 41
+}

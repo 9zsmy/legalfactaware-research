@@ -1,0 +1,15 @@
+{
+  "cases": 50,
+  "mean_seconds": 145.02678098443894,
+  "median_seconds": 153.09720517601818,
+  "total_gpu_hours": 2.0142608470060965,
+  "projected_703_gpu_hours_at_observed_mean": 28.320507508905717,
+  "mean_words": 634.12,
+  "median_words": 633.5,
+  "mean_absolute_word_error": 19.56,
+  "median_absolute_word_error": 16.0,
+  "word_budget_violations": 17,
+  "unfinished_outputs": 0,
+  "source_truncated": 41,
+  "mean_peak_allocated_gib": 7.4155179882049564
+}

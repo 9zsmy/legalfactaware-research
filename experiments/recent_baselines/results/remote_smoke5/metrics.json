@@ -1,0 +1,177 @@
+{
+  "budget": 450,
+  "methods": {
+    "LegalFactAware-v2.5-B": {
+      "method": "LegalFactAware-v2.5-B",
+      "cases": 5,
+      "rouge_1_f1": 0.614746888474415,
+      "rouge_2_f1": 0.4395696386506539,
+      "rouge_l_f1": 0.4526693934472321,
+      "expression_f1_document_macro": 0.31943926846100756,
+      "source_expression_support": 1.0,
+      "mean_characters": 416.6,
+      "median_characters": 441,
+      "p95_characters": 449.0,
+      "max_characters": 450,
+      "mean_absolute_error_to_450": 33.4,
+      "within_10_characters": 0.6,
+      "within_25_characters": 0.6,
+      "within_50_characters": 0.8,
+      "budget_violation_count": 0,
+      "budget_violation_rate": 0,
+      "expression_by_type": {
+        "amount": {
+          "reference_instances": 4,
+          "predicted_instances": 13,
+          "true_positive_instances": 1,
+          "reference_nonempty_documents": 2,
+          "micro_precision": 0.07692307692307693,
+          "micro_recall": 0.25,
+          "micro_f1": 0.11764705882352941,
+          "conditional_document_macro_precision": 0.16666666666666666,
+          "conditional_document_macro_recall": 0.16666666666666666,
+          "conditional_document_macro_f1": 0.16666666666666666
+        },
+        "date": {
+          "reference_instances": 0,
+          "predicted_instances": 4,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": null,
+          "conditional_document_macro_recall": null,
+          "conditional_document_macro_f1": null
+        },
+        "law": {
+          "reference_instances": 24,
+          "predicted_instances": 28,
+          "true_positive_instances": 18,
+          "reference_nonempty_documents": 5,
+          "micro_precision": 0.6428571428571429,
+          "micro_recall": 0.75,
+          "micro_f1": 0.6923076923076924,
+          "conditional_document_macro_precision": 0.3666666666666667,
+          "conditional_document_macro_recall": 0.38181818181818183,
+          "conditional_document_macro_f1": 0.3739130434782609
+        },
+        "decision": {
+          "reference_instances": 11,
+          "predicted_instances": 16,
+          "true_positive_instances": 9,
+          "reference_nonempty_documents": 5,
+          "micro_precision": 0.5625,
+          "micro_recall": 0.8181818181818182,
+          "micro_f1": 0.6666666666666666,
+          "conditional_document_macro_precision": 0.5333333333333333,
+          "conditional_document_macro_recall": 0.75,
+          "conditional_document_macro_f1": 0.6147619047619047
+        }
+      }
+    },
+    "DELTA-Dream-smoke5": {
+      "method": "DELTA-Dream-smoke5",
+      "cases": 5,
+      "rouge_1_f1": 0.28431107831261715,
+      "rouge_2_f1": 0.11808110258576235,
+      "rouge_l_f1": 0.15704707706019674,
+      "expression_f1_document_macro": 0.20015262515262516,
+      "source_expression_support": 0.7645238095238095,
+      "mean_characters": 446.4,
+      "median_characters": 446,
+      "p95_characters": 447.8,
+      "max_characters": 448,
+      "mean_absolute_error_to_450": 3.6,
+      "within_10_characters": 1,
+      "within_25_characters": 1,
+      "within_50_characters": 1,
+      "budget_violation_count": 0,
+      "budget_violation_rate": 0,
+      "expression_by_type": {
+        "amount": {
+          "reference_instances": 4,
+          "predicted_instances": 18,
+          "true_positive_instances": 2,
+          "reference_nonempty_documents": 2,
+          "micro_precision": 0.1111111111111111,
+          "micro_recall": 0.5,
+          "micro_f1": 0.1818181818181818,
+          "conditional_document_macro_precision": 0.26666666666666666,
+          "conditional_document_macro_recall": 0.6666666666666666,
+          "conditional_document_macro_f1": 0.33333333333333337
+        },
+        "date": {
+          "reference_instances": 0,
+          "predicted_instances": 12,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": null,
+          "conditional_document_macro_recall": null,
+          "conditional_document_macro_f1": null
+        },
+        "law": {
+          "reference_instances": 24,
+          "predicted_instances": 5,
+          "true_positive_instances": 1,
+          "reference_nonempty_documents": 5,
+          "micro_precision": 0.2,
+          "micro_recall": 0.041666666666666664,
+          "micro_f1": 0.06896551724137931,
+          "conditional_document_macro_precision": 0.1,
+          "conditional_document_macro_recall": 0.01818181818181818,
+          "conditional_document_macro_f1": 0.03076923076923077
+        },
+        "decision": {
+          "reference_instances": 11,
+          "predicted_instances": 8,
+          "true_positive_instances": 5,
+          "reference_nonempty_documents": 5,
+          "micro_precision": 0.625,
+          "micro_recall": 0.45454545454545453,
+          "micro_f1": 0.5263157894736842,
+          "conditional_document_macro_precision": 0.7333333333333333,
+          "conditional_document_macro_recall": 0.4666666666666667,
+          "conditional_document_macro_f1": 0.5476190476190477
+        }
+      }
+    }
+  },
+  "paired_bootstrap": [
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "DELTA-Dream-smoke5",
+      "metric": "rouge_1_f1",
+      "mean_delta": 0.33043581016179785,
+      "ci95_low": 0.3005195708465539,
+      "ci95_high": 0.35830945151663796
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "DELTA-Dream-smoke5",
+      "metric": "rouge_2_f1",
+      "mean_delta": 0.3214885360648916,
+      "ci95_low": 0.259524576310497,
+      "ci95_high": 0.3808448172866746
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "DELTA-Dream-smoke5",
+      "metric": "rouge_l_f1",
+      "mean_delta": 0.2956223163870354,
+      "ci95_low": 0.21513628397089582,
+      "ci95_high": 0.3686427575758136
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "DELTA-Dream-smoke5",
+      "metric": "expression_f1_document_macro",
+      "mean_delta": 0.11928664330838243,
+      "ci95_low": -0.05773809523809527,
+      "ci95_high": 0.29174788979136806
+    }
+  ]
+}

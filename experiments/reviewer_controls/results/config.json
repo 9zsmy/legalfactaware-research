@@ -1,0 +1,41 @@
+{
+  "experiment": "Chinese-reviewer-controls-20261028",
+  "status": "dev_complete_test_untouched",
+  "test_argument_exists": false,
+  "train_cases": 7495,
+  "dev_cases": 942,
+  "random_seed": 42,
+  "python": "3.10.8",
+  "sklearn": "1.7.2",
+  "budgets": [
+    300,
+    400,
+    450
+  ],
+  "candidate_caps": [
+    4,
+    6,
+    8,
+    10,
+    12,
+    "all"
+  ],
+  "hashes": {
+    "train": "8b19e6a1aa086e55c3a1d694e86cb4cf5abfe6929ee1258a3621b291bde564a2",
+    "dev": "1a056c68dcfa5f11e9574d5f1b818fa475bb5607ea7f6565e2868072a55de2c0",
+    "oracle": "de20bf0a98cb04de5f11f2b0869701fa5c940a392f5804f0b85a09fad5f19960",
+    "vectorizer": "2cc0c9fe4b1fdaca6c1b2e37e545fcece3e5da83533296c1c12ba1d8bb8f70e9",
+    "full_classifier": "38d6b031a1a6faa11a8b6f952f952ad06edfdd492f0ab7671b36055d875c548f",
+    "archived_full": "adc95e77c18d3cca6e46b9ca6cd85ea8975f0f2088c29bf4f242119356e02219",
+    "archived_legacy": "4f84df18d5ca23d1f5b3dd0cdf648e8084ac0130bf85202ec549ab7299f8ca2d"
+  },
+  "script_sha256": "fe5f5498b1c53b5ff71b9457cf30b19e6ae55149ac98357aa18d19fa3906d4af",
+  "fit_seconds": {
+    "matched_count_independent": 81.47661083005369,
+    "lexical_full_aux": 63.63788301497698,
+    "decorated_text_only": 46.48402401059866,
+    "lexical_text_only": 34.93796468526125,
+    "position_marker_only": 21.72562651336193
+  },
+  "elapsed_seconds": 1029.4132692348212
+}

@@ -1,0 +1,90 @@
+{
+  "oracle": {
+    "positive_candidate_length": {
+      "n": 47150,
+      "mean": 54.180212089077415,
+      "std": 40.887446969010725,
+      "q25": 25.0,
+      "median": 44.0,
+      "q75": 70.0
+    },
+    "positive_normalized_position": {
+      "n": 47150,
+      "mean": 0.5781301963652563,
+      "std": 0.24181944001061942,
+      "q25": 0.373134328358209,
+      "median": 0.6410256410256411,
+      "q75": 0.7843137254901961
+    },
+    "section_counts": {
+      "claim": 17927,
+      "decision": 14940,
+      "defense": 906,
+      "fact": 1824,
+      "other": 3224,
+      "reason": 8329
+    },
+    "section_rates": {
+      "claim": 0.3802120890774125,
+      "decision": 0.31686108165429483,
+      "defense": 0.019215270413573703,
+      "fact": 0.038685047720042415,
+      "other": 0.06837751855779427,
+      "reason": 0.1766489925768823
+    }
+  },
+  "matched": {
+    "positive_candidate_length": {
+      "n": 47150,
+      "mean": 44.26733828207847,
+      "std": 31.29080659253927,
+      "q25": 21.0,
+      "median": 37.0,
+      "q75": 61.0
+    },
+    "positive_normalized_position": {
+      "n": 47150,
+      "mean": 0.5687132973747299,
+      "std": 0.2650746375940679,
+      "q25": 0.35555555555555557,
+      "median": 0.6388888888888888,
+      "q75": 0.7924528301886793
+    },
+    "section_counts": {
+      "claim": 16901,
+      "decision": 15079,
+      "defense": 818,
+      "fact": 2162,
+      "other": 5018,
+      "reason": 7172
+    },
+    "section_rates": {
+      "claim": 0.35845174973488864,
+      "decision": 0.3198091198303287,
+      "defense": 0.017348886532343583,
+      "fact": 0.045853658536585365,
+      "other": 0.10642629904559915,
+      "reason": 0.1521102863202545
+    }
+  },
+  "paired_per_document_oracle_minus_matched": {
+    "mean_positive_length": {
+      "n": 7495,
+      "mean_delta_left_minus_right": 11.1025208869405,
+      "bootstrap_95_ci": [
+        10.700775759236317,
+        11.503641344229486
+      ],
+      "wilcoxon_p_raw": 0.0
+    },
+    "mean_positive_normalized_position": {
+      "n": 7495,
+      "mean_delta_left_minus_right": 0.009139532631543915,
+      "bootstrap_95_ci": [
+        0.00691302335250112,
+        0.011370359902142534
+      ],
+      "wilcoxon_p_raw": 1.0499531950943872e-24
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿method,cases,rouge_1_f1,rouge_2_f1,rouge_l_f1,expression_f1_document_macro,source_expression_support,mean_characters,p95_characters,mean_absolute_error_to_450,budget_violation_count,budget_violation_rate
+LegalFactAware-v2.5-B,100,0.6594329953760619,0.5218705555786674,0.5338445576277894,0.47296767464984923,1.0,388.52,449.0,61.48,0,0
+DELTA-Dream,100,0.32787214842229884,0.15696963090746185,0.19169100400520467,0.19176154401154402,0.8324453601953602,446.84,450.0,3.3,3,0.03

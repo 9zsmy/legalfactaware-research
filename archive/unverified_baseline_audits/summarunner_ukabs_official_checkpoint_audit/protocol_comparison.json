@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "rouge1": 50.2,
+    "rouge2": 20.5,
+    "rougeL": 23.7
+  },
+  "published_checkpoint_top15_budget_fit_py_rouge_1_1_flattened": {
+    "rouge1": 46.23006903835512,
+    "rouge2": 22.456372410268536,
+    "rougeL": 22.46977902288318,
+    "difference_vs_paper": {
+      "rouge1": -3.9699309616448843,
+      "rouge2": 1.9563724102685356,
+      "rougeL": -1.2302209771168204
+    },
+    "budget_violations": 0
+  },
+  "published_checkpoint_top15_budget_fit_py_rouge_1_1_preserve_newlines": {
+    "rouge1": 46.23006903835512,
+    "rouge2": 22.456372410268536,
+    "rougeL": 44.023914405444906,
+    "budget_violations": 0
+  },
+  "published_checkpoint_fill_budget_py_rouge_1_1_preserve_newlines": {
+    "rouge1": 63.87672556140955,
+    "rouge2": 29.549137235551044,
+    "rougeL": 61.32211357695954,
+    "budget_violations": 0
+  },
+  "interpretation": "The source-backed topk=15 cap explains most of the R1/R2 gap. Flattening summary newlines before py-rouge explains the ROUGE-L gap."
+}

@@ -1,0 +1,278 @@
+{
+  "budget": 450,
+  "methods": {
+    "LegalFactAware-v2.5-B": {
+      "method": "LegalFactAware-v2.5-B",
+      "cases": 5,
+      "rouge_1_f1": 0.614746888474415,
+      "rouge_2_f1": 0.4395696386506539,
+      "rouge_l_f1": 0.4526693934472321,
+      "expression_f1_document_macro": 0.31943926846100756,
+      "source_expression_support": 1.0,
+      "mean_characters": 416.6,
+      "median_characters": 441,
+      "p95_characters": 449.0,
+      "max_characters": 450,
+      "mean_absolute_error_to_450": 33.4,
+      "within_10_characters": 0.6,
+      "within_25_characters": 0.6,
+      "within_50_characters": 0.8,
+      "budget_violation_count": 0,
+      "budget_violation_rate": 0,
+      "expression_by_type": {
+        "amount": {
+          "reference_instances": 4,
+          "predicted_instances": 13,
+          "true_positive_instances": 1,
+          "reference_nonempty_documents": 2,
+          "micro_precision": 0.07692307692307693,
+          "micro_recall": 0.25,
+          "micro_f1": 0.11764705882352941,
+          "conditional_document_macro_precision": 0.16666666666666666,
+          "conditional_document_macro_recall": 0.16666666666666666,
+          "conditional_document_macro_f1": 0.16666666666666666
+        },
+        "date": {
+          "reference_instances": 0,
+          "predicted_instances": 4,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": null,
+          "conditional_document_macro_recall": null,
+          "conditional_document_macro_f1": null
+        },
+        "law": {
+          "reference_instances": 24,
+          "predicted_instances": 28,
+          "true_positive_instances": 18,
+          "reference_nonempty_documents": 5,
+          "micro_precision": 0.6428571428571429,
+          "micro_recall": 0.75,
+          "micro_f1": 0.6923076923076924,
+          "conditional_document_macro_precision": 0.3666666666666667,
+          "conditional_document_macro_recall": 0.38181818181818183,
+          "conditional_document_macro_f1": 0.3739130434782609
+        },
+        "decision": {
+          "reference_instances": 11,
+          "predicted_instances": 16,
+          "true_positive_instances": 9,
+          "reference_nonempty_documents": 5,
+          "micro_precision": 0.5625,
+          "micro_recall": 0.8181818181818182,
+          "micro_f1": 0.6666666666666666,
+          "conditional_document_macro_precision": 0.5333333333333333,
+          "conditional_document_macro_recall": 0.75,
+          "conditional_document_macro_f1": 0.6147619047619047
+        }
+      }
+    },
+    "Qwen2.5-ExactPrompt": {
+      "method": "Qwen2.5-ExactPrompt",
+      "cases": 5,
+      "rouge_1_f1": 0.5598318030083514,
+      "rouge_2_f1": 0.3444823326048059,
+      "rouge_l_f1": 0.3810787233699384,
+      "expression_f1_document_macro": 0.23755411255411255,
+      "source_expression_support": 0.9714285714285714,
+      "mean_characters": 282.2,
+      "median_characters": 304,
+      "p95_characters": 319.8,
+      "max_characters": 320,
+      "mean_absolute_error_to_450": 167.8,
+      "within_10_characters": 0,
+      "within_25_characters": 0,
+      "within_50_characters": 0,
+      "budget_violation_count": 0,
+      "budget_violation_rate": 0,
+      "expression_by_type": {
+        "amount": {
+          "reference_instances": 4,
+          "predicted_instances": 18,
+          "true_positive_instances": 3,
+          "reference_nonempty_documents": 2,
+          "micro_precision": 0.16666666666666666,
+          "micro_recall": 0.75,
+          "micro_f1": 0.27272727272727276,
+          "conditional_document_macro_precision": 0.375,
+          "conditional_document_macro_recall": 0.5,
+          "conditional_document_macro_f1": 0.42857142857142855
+        },
+        "date": {
+          "reference_instances": 0,
+          "predicted_instances": 4,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": null,
+          "conditional_document_macro_recall": null,
+          "conditional_document_macro_f1": null
+        },
+        "law": {
+          "reference_instances": 24,
+          "predicted_instances": 4,
+          "true_positive_instances": 3,
+          "reference_nonempty_documents": 5,
+          "micro_precision": 0.75,
+          "micro_recall": 0.125,
+          "micro_f1": 0.21428571428571427,
+          "conditional_document_macro_precision": 0.2,
+          "conditional_document_macro_recall": 0.075,
+          "conditional_document_macro_f1": 0.10909090909090909
+        },
+        "decision": {
+          "reference_instances": 11,
+          "predicted_instances": 8,
+          "true_positive_instances": 6,
+          "reference_nonempty_documents": 5,
+          "micro_precision": 0.75,
+          "micro_recall": 0.5454545454545454,
+          "micro_f1": 0.631578947368421,
+          "conditional_document_macro_precision": 0.72,
+          "conditional_document_macro_recall": 0.5166666666666666,
+          "conditional_document_macro_f1": 0.5666666666666667
+        }
+      }
+    },
+    "LCG-MHIS-Qwen2.5-Exact": {
+      "method": "LCG-MHIS-Qwen2.5-Exact",
+      "cases": 5,
+      "rouge_1_f1": 0.5699412427813783,
+      "rouge_2_f1": 0.36615450317055587,
+      "rouge_l_f1": 0.3886753387934694,
+      "expression_f1_document_macro": 0.2727450980392157,
+      "source_expression_support": 0.9453296703296703,
+      "mean_characters": 422.6,
+      "median_characters": 445,
+      "p95_characters": 460.4,
+      "max_characters": 461,
+      "mean_absolute_error_to_450": 35,
+      "within_10_characters": 0.4,
+      "within_25_characters": 0.8,
+      "within_50_characters": 0.8,
+      "budget_violation_count": 2,
+      "budget_violation_rate": 0.4,
+      "expression_by_type": {
+        "amount": {
+          "reference_instances": 4,
+          "predicted_instances": 21,
+          "true_positive_instances": 2,
+          "reference_nonempty_documents": 2,
+          "micro_precision": 0.09523809523809523,
+          "micro_recall": 0.5,
+          "micro_f1": 0.16,
+          "conditional_document_macro_precision": 0.5,
+          "conditional_document_macro_recall": 0.3333333333333333,
+          "conditional_document_macro_f1": 0.4
+        },
+        "date": {
+          "reference_instances": 0,
+          "predicted_instances": 6,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": null,
+          "conditional_document_macro_recall": null,
+          "conditional_document_macro_f1": null
+        },
+        "law": {
+          "reference_instances": 24,
+          "predicted_instances": 21,
+          "true_positive_instances": 8,
+          "reference_nonempty_documents": 5,
+          "micro_precision": 0.38095238095238093,
+          "micro_recall": 0.3333333333333333,
+          "micro_f1": 0.35555555555555557,
+          "conditional_document_macro_precision": 0.17777777777777776,
+          "conditional_document_macro_recall": 0.2,
+          "conditional_document_macro_f1": 0.18823529411764706
+        },
+        "decision": {
+          "reference_instances": 11,
+          "predicted_instances": 10,
+          "true_positive_instances": 7,
+          "reference_nonempty_documents": 5,
+          "micro_precision": 0.7,
+          "micro_recall": 0.6363636363636364,
+          "micro_f1": 0.6666666666666666,
+          "conditional_document_macro_precision": 0.7,
+          "conditional_document_macro_recall": 0.5833333333333334,
+          "conditional_document_macro_f1": 0.6133333333333333
+        }
+      }
+    }
+  },
+  "paired_bootstrap": [
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "Qwen2.5-ExactPrompt",
+      "metric": "rouge_1_f1",
+      "mean_delta": 0.05491508546606361,
+      "ci95_low": -0.0016897958435756477,
+      "ci95_high": 0.12255837622534535
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "Qwen2.5-ExactPrompt",
+      "metric": "rouge_2_f1",
+      "mean_delta": 0.095087306045848,
+      "ci95_low": 0.002117895770134004,
+      "ci95_high": 0.20143243250386794
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "Qwen2.5-ExactPrompt",
+      "metric": "rouge_l_f1",
+      "mean_delta": 0.0715906700772937,
+      "ci95_low": -0.010239791425239375,
+      "ci95_high": 0.16411857151318884
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "Qwen2.5-ExactPrompt",
+      "metric": "expression_f1_document_macro",
+      "mean_delta": 0.08188515590689505,
+      "ci95_low": -0.05833333333333331,
+      "ci95_high": 0.2558827404479579
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "LCG-MHIS-Qwen2.5-Exact",
+      "metric": "rouge_1_f1",
+      "mean_delta": 0.044805645693036765,
+      "ci95_low": -0.03286970389208632,
+      "ci95_high": 0.1441349306282718
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "LCG-MHIS-Qwen2.5-Exact",
+      "metric": "rouge_2_f1",
+      "mean_delta": 0.07341513548009801,
+      "ci95_low": -0.04239657904038665,
+      "ci95_high": 0.2061991667445237
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "LCG-MHIS-Qwen2.5-Exact",
+      "metric": "rouge_l_f1",
+      "mean_delta": 0.06399405465376272,
+      "ci95_low": -0.041789304374329594,
+      "ci95_high": 0.18432994106654618
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "LCG-MHIS-Qwen2.5-Exact",
+      "metric": "expression_f1_document_macro",
+      "mean_delta": 0.04669417042179191,
+      "ci95_low": -0.08147525676937442,
+      "ci95_high": 0.24175618073316285
+    }
+  ]
+}

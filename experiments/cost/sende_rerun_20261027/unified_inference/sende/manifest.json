@@ -1,0 +1,92 @@
+{
+  "method": "sende",
+  "status": "complete",
+  "repeats": 5,
+  "model_load_seconds": 0.6518452651798725,
+  "warmup_seconds": 0.6637501567602158,
+  "runs": [
+    {
+      "method": "sende",
+      "repeat": 1,
+      "started_unix": 1793074489.7055962,
+      "elapsed_seconds": 20.346283121034503,
+      "stages_seconds": {
+        "read_preprocessing": 0.09599409438669682,
+        "representation_encoding": 17.57182473130524,
+        "scoring_forward": 2.5136222057044506,
+        "constrained_decoding": 0.07609374076128006,
+        "serialization": 0.010523401200771332
+      },
+      "predictions": 942,
+      "prediction_sha256": "7fa88fc12d82289dfa6ea481a3d661fbbde67afa2c4530e2a5226c64f54ac1cc",
+      "output": "/root/autodl-tmp/sende_rerun_20261027/unified_inference/sende/run_1/dev_predictions.jsonl"
+    },
+    {
+      "method": "sende",
+      "repeat": 2,
+      "started_unix": 1793074510.0535657,
+      "elapsed_seconds": 19.42734255641699,
+      "stages_seconds": {
+        "read_preprocessing": 0.09194619581103325,
+        "representation_encoding": 17.53853676468134,
+        "scoring_forward": 1.639509567990899,
+        "constrained_decoding": 0.07543634995818138,
+        "serialization": 0.00973055511713028
+      },
+      "predictions": 942,
+      "prediction_sha256": "7fa88fc12d82289dfa6ea481a3d661fbbde67afa2c4530e2a5226c64f54ac1cc",
+      "output": "/root/autodl-tmp/sende_rerun_20261027/unified_inference/sende/run_2/dev_predictions.jsonl"
+    },
+    {
+      "method": "sende",
+      "repeat": 3,
+      "started_unix": 1793074529.4826326,
+      "elapsed_seconds": 19.276314230635762,
+      "stages_seconds": {
+        "read_preprocessing": 0.09143469668924809,
+        "representation_encoding": 17.385861275717616,
+        "scoring_forward": 1.6415637601166964,
+        "constrained_decoding": 0.07546447776257992,
+        "serialization": 0.00972306914627552
+      },
+      "predictions": 942,
+      "prediction_sha256": "7fa88fc12d82289dfa6ea481a3d661fbbde67afa2c4530e2a5226c64f54ac1cc",
+      "output": "/root/autodl-tmp/sende_rerun_20261027/unified_inference/sende/run_3/dev_predictions.jsonl"
+    },
+    {
+      "method": "sende",
+      "repeat": 4,
+      "started_unix": 1793074548.761631,
+      "elapsed_seconds": 19.279908657073975,
+      "stages_seconds": {
+        "read_preprocessing": 0.09216983802616596,
+        "representation_encoding": 17.386900948360562,
+        "scoring_forward": 1.641088780015707,
+        "constrained_decoding": 0.07824917323887348,
+        "serialization": 0.00975574180483818
+      },
+      "predictions": 942,
+      "prediction_sha256": "7fa88fc12d82289dfa6ea481a3d661fbbde67afa2c4530e2a5226c64f54ac1cc",
+      "output": "/root/autodl-tmp/sende_rerun_20261027/unified_inference/sende/run_4/dev_predictions.jsonl"
+    },
+    {
+      "method": "sende",
+      "repeat": 5,
+      "started_unix": 1793074568.0432296,
+      "elapsed_seconds": 19.366754427552223,
+      "stages_seconds": {
+        "read_preprocessing": 0.09357858076691628,
+        "representation_encoding": 17.43896409869194,
+        "scoring_forward": 1.667970221489668,
+        "constrained_decoding": 0.08173425868153572,
+        "serialization": 0.010711541399359703
+      },
+      "predictions": 942,
+      "prediction_sha256": "7fa88fc12d82289dfa6ea481a3d661fbbde67afa2c4530e2a5226c64f54ac1cc",
+      "output": "/root/autodl-tmp/sende_rerun_20261027/unified_inference/sende/run_5/dev_predictions.jsonl"
+    }
+  ],
+  "started_unix": 1793074485.2139115,
+  "finished_unix": 1793074587.4117372,
+  "input_sha256": "1a056c68dcfa5f11e9574d5f1b818fa475bb5607ea7f6565e2868072a55de2c0"
+}

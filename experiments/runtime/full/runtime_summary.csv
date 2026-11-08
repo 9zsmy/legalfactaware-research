@@ -1,0 +1,6 @@
+method,preprocessing_or_oracle_seconds,representation_or_encoding_seconds,training_seconds,dev_inference_seconds,total_seconds,total_hms,dev_predictions,exit_code,notes
+SSE,405.211867,0,467.680716,5.394570,878.287152,00:14:38.29,942,0,"SSE corpus preparation + 10-epoch GPU training + constrained dev inference"
+LegalFactAware,1694.237129,85.891888,77.828914,17.418649,1880.359481,00:31:20.36,942,0,"Budget-Oracle construction + TF-IDF/Legal14/Section6 representation + LR training + constrained dev inference; total uses external wall-clock wrapper"
+SENDE,60.983221,167.605786,1822.061422,5.077289,2055.727718,00:34:15.73,942,0,"Oracle preparation + TSDAE training + train/dev encoding + extractor training + inference"
+MemSum,476.855926,0,5312.064161,36.670594,5825.590682,01:37:05.59,942,0,"SSE/MemSum preparation + model training + constrained dev inference"
+TermDiffuSum,1.958595,0,8023.507000,1313.546000,9348.181855,02:35:48.18,942,0,"CAIL adaptation + 10-epoch training and diffusion decoding; total uses measured external wall-clock files"

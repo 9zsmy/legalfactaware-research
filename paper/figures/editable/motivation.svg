@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="85mm" height="82.1667mm" viewBox="0 0 480 464" role="img" aria-labelledby="title desc">
+  <title id="title">Overlapping and complementary content under the same output budget</title>
+  <desc id="desc">Schematic example in ruled text sections. Underlined phrases mark road closure information A; bold phrases mark service resumption information B. Both combinations contain 100 characters.</desc>
+  <rect id="background" x="0" y="0" width="480" height="464" fill="white" />
+  <style>text{font-family:"Times New Roman","Liberation Serif",Times,serif;fill:#111111;font-size:16px}.head{font-size:16px;font-weight:700}.meta{font-size:14px;fill:#444444}.a{fill:#111111;text-decoration:underline}.b{fill:#111111;font-weight:700}.id{font-size:15px}.note{font-size:14px}.schematic{font-size:13px;font-style:italic;fill:#444444}</style>
+  <line id="top-rule" x1="16" x2="464" y1="14" y2="14" stroke="#333333" stroke-width="0.65" />
+  <text id="source-heading" x="16.000" y="34" class="head" xml:space="preserve">Source candidates</text>
+  <text id="schematic-label" x="464.000" y="34" class="schematic" text-anchor="end" xml:space="preserve">Schematic example</text>
+  <text id="source-s1-id" x="18.000" y="58" class="id a" xml:space="preserve">s₁ [A]</text>
+  <text id="source-s1-line1-part1" x="66.000" y="58" xml:space="preserve">A storm </text>
+  <text id="source-s1-line1-part2" x="121.984" y="58" class="a" xml:space="preserve">closed the main road</text>
+  <text id="source-s1-line1-part3" x="254.420" y="58" xml:space="preserve"> near</text>
+  <text id="source-s1-line2-part1" x="66.000" y="78" xml:space="preserve">the station early Tuesday.</text>
+  <text id="source-s1-length" x="464.000" y="58" class="meta" text-anchor="end" xml:space="preserve">60 chars</text>
+  <text id="source-s2-id" x="18.000" y="105" class="id a" xml:space="preserve">s₂ [A]</text>
+  <text id="source-s2-part1" x="66.000" y="105" xml:space="preserve">The </text>
+  <text id="source-s2-part2" x="95.122" y="105" class="a" xml:space="preserve">main road was shut</text>
+  <text id="source-s2-part3" x="218.436" y="105" xml:space="preserve"> after that storm.</text>
+  <text id="source-s2-length" x="464.000" y="105" class="meta" text-anchor="end" xml:space="preserve">40 chars</text>
+  <text id="source-s3-id" x="18.000" y="132" class="id b" xml:space="preserve">s₃ [B]</text>
+  <text id="source-s3-part1" x="66.000" y="132" class="b" xml:space="preserve">Bus services resumed</text>
+  <text id="source-s3-part2" x="211.823" y="132" xml:space="preserve"> on Tuesday morning.</text>
+  <text id="source-s3-length" x="464.000" y="132" class="meta" text-anchor="end" xml:space="preserve">40 chars</text>
+  <text id="content-key-a" x="16.000" y="158" class="note a" xml:space="preserve">A: road closure</text>
+  <text id="content-key-b" x="234.000" y="158" class="note b" xml:space="preserve">B: service resumption</text>
+  <text id="shared-budget" x="16.000" y="178" class="note" xml:space="preserve">Output budget: 100 characters.</text>
+  <line id="source-bottom-rule" x1="16" x2="464" y1="194" y2="194" stroke="#333333" stroke-width="0.65" />
+  <text id="overlap-heading" x="16.000" y="214" class="head" xml:space="preserve">Overlapping choice</text>
+  <text id="overlap-s1-id" x="18.000" y="238" class="id a" xml:space="preserve">s₁ [A]</text>
+  <text id="overlap-s1-line1-part1" x="66.000" y="238" xml:space="preserve">A storm </text>
+  <text id="overlap-s1-line1-part2" x="121.984" y="238" class="a" xml:space="preserve">closed the main road</text>
+  <text id="overlap-s1-line1-part3" x="254.420" y="238" xml:space="preserve"> near</text>
+  <text id="overlap-s1-line2-part1" x="66.000" y="258" xml:space="preserve">the station early Tuesday.</text>
+  <text id="overlap-other-id" x="18.000" y="286" class="id a" xml:space="preserve">s₂ [A]</text>
+  <text id="overlap-other-part1" x="66.000" y="286" xml:space="preserve">The </text>
+  <text id="overlap-other-part2" x="95.122" y="286" class="a" xml:space="preserve">main road was shut</text>
+  <text id="overlap-other-part3" x="218.436" y="286" xml:space="preserve"> after that storm.</text>
+  <text id="overlap-count" x="16.000" y="310" class="meta" xml:space="preserve">60 + 40 = 100 chars</text>
+  <text id="overlap-result" x="464.000" y="310" class="note" text-anchor="end" xml:space="preserve">A repeated; B omitted</text>
+  <line id="overlap-bottom-rule" x1="16" x2="464" y1="324" y2="324" stroke="#333333" stroke-width="0.65" />
+  <text id="complement-heading" x="16.000" y="344" class="head" xml:space="preserve">Complementary choice</text>
+  <text id="complement-s1-id" x="18.000" y="368" class="id a" xml:space="preserve">s₁ [A]</text>
+  <text id="complement-s1-line1-part1" x="66.000" y="368" xml:space="preserve">A storm </text>
+  <text id="complement-s1-line1-part2" x="121.984" y="368" class="a" xml:space="preserve">closed the main road</text>
+  <text id="complement-s1-line1-part3" x="254.420" y="368" xml:space="preserve"> near</text>
+  <text id="complement-s1-line2-part1" x="66.000" y="388" xml:space="preserve">the station early Tuesday.</text>
+  <text id="complement-other-id" x="18.000" y="416" class="id b" xml:space="preserve">s₃ [B]</text>
+  <text id="complement-other-part1" x="66.000" y="416" class="b" xml:space="preserve">Bus services resumed</text>
+  <text id="complement-other-part2" x="211.823" y="416" xml:space="preserve"> on Tuesday morning.</text>
+  <text id="complement-count" x="16.000" y="440" class="meta" xml:space="preserve">60 + 40 = 100 chars</text>
+  <text id="complement-result" x="464.000" y="440" class="note" text-anchor="end" xml:space="preserve">A + B retained</text>
+  <line id="complement-bottom-rule" x1="16" x2="464" y1="454" y2="454" stroke="#333333" stroke-width="0.65" />
+</svg>

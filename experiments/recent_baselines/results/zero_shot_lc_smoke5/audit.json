@@ -1,0 +1,53 @@
+{
+  "dataset": "experiments/recent_baselines_20261031/data/cail_dev_942.jsonl",
+  "expected_ids": [
+    "f5e87d05913da0f49c51eeb2086aa9f9",
+    "20b8847df6e5938051c50d73d1e644ef",
+    "50efb3a952a26e06c99c0159ad3465e2",
+    "806440352f459e46ff027f01501abdcf",
+    "a9d6aaf5953ded3ef1ab3cd0a1dcf080"
+  ],
+  "target": 450,
+  "variants": [
+    {
+      "objective": "exact",
+      "documents": 5,
+      "empty_outputs": [],
+      "role_leaks": [],
+      "selection_errors": [],
+      "trace_errors": [],
+      "objective_compliant_count": 2,
+      "budget_violation_count": 1,
+      "total_revisions": 18,
+      "total_elapsed_seconds_excluding_model_load": 201.1761669870466,
+      "final_lengths": [
+        279,
+        413,
+        353,
+        483,
+        306
+      ],
+      "passed_integrity_checks": true
+    },
+    {
+      "objective": "upper_bound",
+      "documents": 5,
+      "empty_outputs": [],
+      "role_leaks": [],
+      "selection_errors": [],
+      "trace_errors": [],
+      "objective_compliant_count": 5,
+      "budget_violation_count": 0,
+      "total_revisions": 0,
+      "total_elapsed_seconds_excluding_model_load": 59.93426546268165,
+      "final_lengths": [
+        242,
+        155,
+        220,
+        116,
+        166
+      ],
+      "passed_integrity_checks": true
+    }
+  ]
+}

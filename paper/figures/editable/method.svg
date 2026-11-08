@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="126mm" viewBox="0 0 1600 1120"><rect width="1600" height="1120" fill="white"/>
+<text x="1570.0" y="35.66" font-family="DejaVu Sans" font-size="17.0" font-weight="400" fill="#637180" text-anchor="end">Training and inference</text>
+<rect x="30.0" y="60.0" width="720.0" height="319.0" rx="8.0" fill="white" stroke="#D6B788" stroke-width="1.5"/>
+<rect x="774.0" y="60.0" width="796.0" height="319.0" rx="8.0" fill="white" stroke="#9BB4C9" stroke-width="1.5"/>
+<text x="50.0" y="91.6" font-family="DejaVu Sans" font-size="20.0" font-weight="700" fill="#A76B24" text-anchor="start">(a) Oracle supervision</text>
+<text x="686.0" y="90.76" font-family="DejaVu Sans" font-size="12.0" font-weight="700" fill="#A76B24" text-anchor="start">TRAIN</text>
+<text x="797.0" y="91.6" font-family="DejaVu Sans" font-size="20.0" font-weight="700" fill="#3E6588" text-anchor="start">(b) Train the sentence scorer</text>
+<text x="1500.0" y="90.76" font-family="DejaVu Sans" font-size="12.0" font-weight="700" fill="#3E6588" text-anchor="start">TRAIN</text>
+<rect x="50.0" y="108.0" width="255.0" height="35.0" rx="4.0" fill="white" stroke="#D6B788" stroke-width="1.5"/>
+<rect x="60.0" y="114.0" width="19.0" height="23.0" rx="2.0" fill="white" stroke="#D6B788" stroke-width="1.5"/>
+<polyline points="64,120 75,120" fill="none" stroke="#D6B788" stroke-width="1.2"/>
+<polyline points="64,125 73,125" fill="none" stroke="#D6B788" stroke-width="1.2"/>
+<polyline points="64,130 71,130" fill="none" stroke="#D6B788" stroke-width="1.2"/>
+<text x="89.0" y="130.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#253346" text-anchor="start">Judgment → sentences</text>
+<rect x="474.0" y="108.0" width="247.0" height="35.0" rx="4.0" fill="white" stroke="#A76B24" stroke-width="1.5"/>
+<rect x="483.0" y="114.0" width="19.0" height="23.0" rx="2.0" fill="white" stroke="#A76B24" stroke-width="1.5"/>
+<polyline points="487,120 498,120" fill="none" stroke="#A76B24" stroke-width="1.2"/>
+<polyline points="487,125 496,125" fill="none" stroke="#A76B24" stroke-width="1.2"/>
+<polyline points="487,130 494,130" fill="none" stroke="#A76B24" stroke-width="1.2"/>
+<text x="510.0" y="130.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#A76B24" text-anchor="start">Reference · train only</text>
+<polyline points="597,143 597,157" fill="none" stroke="#A76B24" stroke-width="2" stroke-dasharray="6 4"/>
+<polygon points="597.0,157.0 601.05,148.0 592.95,148.0" fill="#A76B24"/>
+<rect x="50.0" y="165.0" width="392.0" height="158.0" rx="5.0" fill="#FCF7EF" stroke="#A76B24" stroke-width="1.5"/>
+<text x="67.0" y="189.66" font-family="DejaVu Sans" font-size="17.0" font-weight="700" fill="#A76B24" text-anchor="start">Budget-consistent Oracle</text>
+<text x="67.0" y="214.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#253346" text-anchor="start">Evaluate each sentence addition</text>
+<text x="67.0" y="240.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#637180" text-anchor="start">Candidate</text>
+<text x="167.0" y="240.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#637180" text-anchor="start">Marginal gain</text>
+<text x="332.0" y="240.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#637180" text-anchor="start">Fits?</text>
+<polyline points="66,250 426,250" fill="none" stroke="#D8DFE3" stroke-width="1"/>
+<text x="67.0" y="273.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#A76B24" text-anchor="start">s₂</text>
+<rect x="166.0" y="261.0" width="127.0" height="14.0" rx="2.0" fill="#A76B24" stroke="#A76B24" stroke-width="1.5"/>
+<polyline points="341,268 345,272 353,262" fill="none" stroke="#A76B24" stroke-width="2"/>
+<text x="67.0" y="300.68" font-family="DejaVu Sans" font-size="16.0" font-weight="400" fill="#253346" text-anchor="start">s₅</text>
+<rect x="166.0" y="288.0" width="68.0" height="14.0" rx="2.0" fill="#EAD5B7" stroke="#A76B24" stroke-width="1.5"/>
+<polyline points="341,295 345,299 353,289" fill="none" stroke="#A76B24" stroke-width="2"/>
+<text x="380.0" y="273.76" font-family="DejaVu Sans" font-size="12.0" font-weight="700" fill="#A76B24" text-anchor="start">pick</text>
+<polyline points="230,143 230,155" fill="none" stroke="#D6B788" stroke-width="2"/>
+<polygon points="230.0,155.0 234.05,146.0 225.95,146.0" fill="#D6B788"/>
+<rect x="474.0" y="165.0" width="247.0" height="72.0" rx="5.0" fill="white" stroke="#A76B24" stroke-width="1.5"/>
+<text x="490.0" y="189.7" font-family="DejaVu Sans" font-size="15.0" font-weight="700" fill="#A76B24" text-anchor="start">Summary-level gain</text>
+<text x="490.0" y="215.76" font-family="DejaVu Sans" font-size="12.0" font-weight="400" fill="#253346" text-anchor="start">ROUGE(S ∪ {sᵢ}, R) − ROUGE(S, R)</text>
+<polyline points="474,200 452,200" fill="none" stroke="#A76B24" stroke-width="2" stroke-dasharray="6 4"/>
+<polygon points="452.0,200.0 461.0,204.05 461.0,195.95" fill="#A76B24"/>
+<rect x="474.0" y="265.0" width="247.0" height="58.0" rx="5.0" fill="white" stroke="#D6B788" stroke-width="1.5"/>
+<text x="490.0" y="288.72" font-family="DejaVu Sans" font-size="14.0" font-weight="700" fill="#253346" text-anchor="start">Select → update → repeat</text>
+<text x="490.0" y="310.76" font-family="DejaVu Sans" font-size="12.0" font-weight="400" fill="#253346" text-anchor="start">Oracle labels: selected = 1; else 0</text>
+<polyline points="442,286 464,286" fill="none" stroke="#D6B788" stroke-width="2"/>
+<polygon points="464.0,286.0 455.0,281.95 455.0,290.05" fill="#D6B788"/>
+<text x="50.0" y="354.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#637180" text-anchor="start">Training and inference share the same budget.</text>
+<text x="798.0" y="123.7" font-family="DejaVu Sans" font-size="15.0" font-weight="700" fill="#3E6588" text-anchor="start">Sentence features</text>
+<rect x="798.0" y="139.0" width="323.0" height="194.0" rx="5.0" fill="#F2F6FA" stroke="#9BB4C9" stroke-width="1.5"/>
+<rect x="813.0" y="151.0" width="4.0" height="4.0" rx="0" fill="#C6D7E6" stroke="#3E6588" stroke-width="1.5"/>
+<rect x="820.0" y="151.0" width="4.0" height="4.0" rx="0" fill="#3E6588" stroke="#3E6588" stroke-width="1.5"/>
+<rect x="827.0" y="151.0" width="4.0" height="4.0" rx="0" fill="#3E6588" stroke="#3E6588" stroke-width="1.5"/>
+<rect x="813.0" y="158.0" width="4.0" height="4.0" rx="0" fill="#3E6588" stroke="#3E6588" stroke-width="1.5"/>
+<rect x="820.0" y="158.0" width="4.0" height="4.0" rx="0" fill="#3E6588" stroke="#3E6588" stroke-width="1.5"/>
+<rect x="827.0" y="158.0" width="4.0" height="4.0" rx="0" fill="#C6D7E6" stroke="#3E6588" stroke-width="1.5"/>
+<rect x="813.0" y="165.0" width="4.0" height="4.0" rx="0" fill="#3E6588" stroke="#3E6588" stroke-width="1.5"/>
+<rect x="820.0" y="165.0" width="4.0" height="4.0" rx="0" fill="#C6D7E6" stroke="#3E6588" stroke-width="1.5"/>
+<rect x="827.0" y="165.0" width="4.0" height="4.0" rx="0" fill="#3E6588" stroke="#3E6588" stroke-width="1.5"/>
+<text x="844.0" y="164.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#3E6588" text-anchor="start">TF-IDF</text>
+<text x="935.0" y="164.76" font-family="DejaVu Sans" font-size="12.0" font-weight="400" fill="#253346" text-anchor="start">Character 2–4 grams</text>
+<polyline points="811,179 1108,179" fill="none" stroke="#D8DFE3" stroke-width="1"/>
+<text x="813.0" y="200.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#3E6588" text-anchor="start">Legal14</text>
+<rect x="827.0" y="210.0" width="25.0" height="19.0" rx="2.0" fill="white" stroke="#3E6588" stroke-width="1.5"/>
+<text x="839.5" y="223.72" font-family="DejaVu Sans" font-size="14.0" font-weight="700" fill="#3E6588" text-anchor="middle">¥</text>
+<text x="839.0" y="246.78" font-family="DejaVu Sans" font-size="11.0" font-weight="400" fill="#3E6588" text-anchor="middle">Amount</text>
+<rect x="901.0" y="212.0" width="23.0" height="20.0" rx="2.0" fill="white" stroke="#3E6588" stroke-width="1.5"/>
+<polyline points="901,218 924,218" fill="none" stroke="#3E6588" stroke-width="1.6"/>
+<polyline points="907,210 907,215" fill="none" stroke="#3E6588" stroke-width="1.6"/>
+<polyline points="918,210 918,215" fill="none" stroke="#3E6588" stroke-width="1.6"/>
+<rect x="905.0" y="222.0" width="3.0" height="3.0" rx="0" fill="#3E6588" stroke="#3E6588" stroke-width="1.5"/>
+<rect x="911.0" y="222.0" width="3.0" height="3.0" rx="0" fill="#3E6588" stroke="#3E6588" stroke-width="1.5"/>
+<rect x="917.0" y="222.0" width="3.0" height="3.0" rx="0" fill="#3E6588" stroke="#3E6588" stroke-width="1.5"/>
+<text x="913.0" y="246.78" font-family="DejaVu Sans" font-size="11.0" font-weight="400" fill="#3E6588" text-anchor="middle">Date</text>
+<rect x="975.0" y="210.0" width="20.0" height="23.0" rx="2.0" fill="white" stroke="#3E6588" stroke-width="1.5"/>
+<polyline points="980,210 980,233" fill="none" stroke="#3E6588" stroke-width="1.6"/>
+<polyline points="984,217 991,217" fill="none" stroke="#3E6588" stroke-width="1.6"/>
+<polyline points="984,222 991,222" fill="none" stroke="#3E6588" stroke-width="1.6"/>
+<text x="987.0" y="246.78" font-family="DejaVu Sans" font-size="11.0" font-weight="400" fill="#3E6588" text-anchor="middle">Law</text>
+<text x="1070.0" y="231.5" font-family="DejaVu Sans" font-size="25.0" font-weight="400" fill="#3E6588" text-anchor="middle">…</text>
+<text x="1070.0" y="246.78" font-family="DejaVu Sans" font-size="11.0" font-weight="400" fill="#3E6588" text-anchor="middle">More</text>
+<polyline points="811,257 1108,257" fill="none" stroke="#D8DFE3" stroke-width="1"/>
+<text x="813.0" y="276.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#3E6588" text-anchor="start">Section6</text>
+<polyline points="827,285 849,285 849,300 837,300 831,305 831,300 827,300 827,285" fill="none" stroke="#3E6588" stroke-width="1.6"/>
+<polyline points="832,290 844,290" fill="none" stroke="#3E6588" stroke-width="1.6"/>
+<polyline points="832,295 840,295" fill="none" stroke="#3E6588" stroke-width="1.6"/>
+<text x="838.0" y="322.78" font-family="DejaVu Sans" font-size="11.0" font-weight="400" fill="#3E6588" text-anchor="middle">Claim</text>
+<rect x="903.0" y="285.0" width="18.0" height="23.0" rx="2.0" fill="white" stroke="#3E6588" stroke-width="1.5"/>
+<polyline points="906,290 908,292 911,288" fill="none" stroke="#3E6588" stroke-width="1.2"/>
+<polyline points="914,290 918,290" fill="none" stroke="#3E6588" stroke-width="1.2"/>
+<polyline points="906,296 908,298 911,294" fill="none" stroke="#3E6588" stroke-width="1.2"/>
+<polyline points="914,296 918,296" fill="none" stroke="#3E6588" stroke-width="1.2"/>
+<polyline points="906,302 908,304 911,300" fill="none" stroke="#3E6588" stroke-width="1.2"/>
+<polyline points="914,302 918,302" fill="none" stroke="#3E6588" stroke-width="1.2"/>
+<text x="912.0" y="322.78" font-family="DejaVu Sans" font-size="11.0" font-weight="400" fill="#3E6588" text-anchor="middle">Fact</text>
+<polyline points="979,288 983,285 993,295 989,299 979,288" fill="none" stroke="#3E6588" stroke-width="2"/>
+<polyline points="985,294 976,305" fill="none" stroke="#3E6588" stroke-width="2"/>
+<polyline points="985,308 999,308" fill="none" stroke="#3E6588" stroke-width="2"/>
+<polyline points="987,308 987,304 997,304 997,308" fill="none" stroke="#3E6588" stroke-width="2"/>
+<text x="986.0" y="322.78" font-family="DejaVu Sans" font-size="11.0" font-weight="400" fill="#3E6588" text-anchor="middle">Decision</text>
+<text x="1070.0" y="304.5" font-family="DejaVu Sans" font-size="25.0" font-weight="400" fill="#3E6588" text-anchor="middle">…</text>
+<text x="1070.0" y="322.78" font-family="DejaVu Sans" font-size="11.0" font-weight="400" fill="#3E6588" text-anchor="middle">More</text>
+<polyline points="1121,220 1161,220" fill="none" stroke="#9BB4C9" stroke-width="2"/>
+<polygon points="1161.0,220.0 1152.0,215.95 1152.0,224.05" fill="#9BB4C9"/>
+<rect x="1171.0" y="162.0" width="174.0" height="116.0" rx="5.0" fill="white" stroke="#3E6588" stroke-width="1.5"/>
+<text x="1185.0" y="190.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#3E6588" text-anchor="start">Class-balanced</text>
+<text x="1185.0" y="216.7" font-family="DejaVu Sans" font-size="15.0" font-weight="400" fill="#253346" text-anchor="start">Logistic Regression</text>
+<text x="1185.0" y="253.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#253346" text-anchor="start">Learn θ from (xᵢ, yᵢ)</text>
+<polyline points="1345,220 1380,220" fill="none" stroke="#9BB4C9" stroke-width="2"/>
+<polygon points="1380.0,220.0 1371.0,215.95 1371.0,224.05" fill="#9BB4C9"/>
+<rect x="1390.0" y="162.0" width="153.0" height="116.0" rx="5.0" fill="#F2F6FA" stroke="#3E6588" stroke-width="1.5"/>
+<text x="1404.0" y="190.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#3E6588" text-anchor="start">Frozen scorer</text>
+<text x="1404.0" y="218.76" font-family="DejaVu Sans" font-size="12.0" font-weight="400" fill="#253346" text-anchor="start">Fitted TF-IDF + LR</text>
+<text x="1404.0" y="252.7" font-family="DejaVu Sans" font-size="15.0" font-weight="400" fill="#253346" text-anchor="start">Parameters θ</text>
+<polyline points="597,323 597,367 1258,367 1258,288" fill="none" stroke="#A76B24" stroke-width="2" stroke-dasharray="6 4"/>
+<polygon points="1258.0,288.0 1253.95,297.0 1262.05,297.0" fill="#A76B24"/>
+<rect x="819.0" y="343.0" width="268.0" height="31.0" rx="0" fill="white" stroke="white" stroke-width="1.5"/>
+<text x="832.0" y="363.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#A76B24" text-anchor="start">Training targets yᵢ</text>
+<rect x="30.0" y="412.0" width="1540.0" height="587.0" rx="8.0" fill="white" stroke="#9DBFB7" stroke-width="1.5"/>
+<text x="419.0" y="443.6" font-family="DejaVu Sans" font-size="20.0" font-weight="700" fill="#34786B" text-anchor="start">(c) INFERENCE</text>
+<text x="1547.0" y="442.72" font-family="DejaVu Sans" font-size="14.0" font-weight="700" fill="#34786B" text-anchor="end">No reference summary</text>
+<text x="419.0" y="477.7" font-family="DejaVu Sans" font-size="15.0" font-weight="400" fill="#637180" text-anchor="start">Example step: Sₜ = {s₁, s₄}; 90 characters / 6 slots left.</text>
+<polyline points="1466,278 1466,395 204,395 204,497" fill="none" stroke="#3E6588" stroke-width="2"/>
+<polygon points="204.0,497.0 208.05,488.0 199.95,488.0" fill="#3E6588"/>
+<rect x="560.0" y="381.0" width="300.0" height="27.0" rx="0" fill="white" stroke="white" stroke-width="1.5"/>
+<text x="710.0" y="398.72" font-family="DejaVu Sans" font-size="14.0" font-weight="700" fill="#3E6588" text-anchor="middle">Reuse the trained, frozen scorer</text>
+<rect x="57.0" y="450.0" width="123.0" height="36.0" rx="4.0" fill="white" stroke="#9DBFB7" stroke-width="1.5"/>
+<text x="118.0" y="472.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#253346" text-anchor="middle">New judgment</text>
+<polyline points="180,468 204,468" fill="none" stroke="#9DBFB7" stroke-width="2"/>
+<polygon points="204.0,468.0 195.0,463.95 195.0,472.05" fill="#9DBFB7"/>
+<rect x="50.0" y="507.0" width="308.0" height="220.0" rx="5.0" fill="white" stroke="#34786B" stroke-width="1.5"/>
+<text x="68.0" y="535.64" font-family="DejaVu Sans" font-size="18.0" font-weight="700" fill="#34786B" text-anchor="start">1  Static scoring</text>
+<text x="68.0" y="564.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#637180" text-anchor="start">Sentence / content</text>
+<text x="278.0" y="564.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#637180" text-anchor="start">pᵢ</text>
+<polyline points="66,576 339,576" fill="none" stroke="#D8DFE3" stroke-width="1"/>
+<text x="68.0" y="602.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#34786B" text-anchor="start">s₂</text>
+<text x="105.0" y="602.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#253346" text-anchor="start">Amount</text>
+<text x="291.0" y="602.7" font-family="DejaVu Sans" font-size="15.0" font-weight="400" fill="#34786B" text-anchor="start">.90</text>
+<rect x="105.0" y="612.0" width="159.0" height="6.0" rx="1.0" fill="#F2F8F5" stroke="#34786B" stroke-width="1.5"/>
+<rect x="105.0" y="612.0" width="143.0" height="6.0" rx="1.0" fill="#C4DDD5" stroke="#34786B" stroke-width="1.5"/>
+<text x="68.0" y="644.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#34786B" text-anchor="start">s₅</text>
+<text x="105.0" y="644.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#253346" text-anchor="start">Deadline</text>
+<text x="291.0" y="644.7" font-family="DejaVu Sans" font-size="15.0" font-weight="400" fill="#34786B" text-anchor="start">0.84</text>
+<rect x="105.0" y="654.0" width="159.0" height="6.0" rx="1.0" fill="#F2F8F5" stroke="#34786B" stroke-width="1.5"/>
+<rect x="105.0" y="654.0" width="134.0" height="6.0" rx="1.0" fill="#C4DDD5" stroke="#34786B" stroke-width="1.5"/>
+<text x="68.0" y="686.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#34786B" text-anchor="start">s₇</text>
+<text x="105.0" y="686.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#253346" text-anchor="start">Decision</text>
+<text x="291.0" y="686.7" font-family="DejaVu Sans" font-size="15.0" font-weight="400" fill="#34786B" text-anchor="start">0.78</text>
+<rect x="105.0" y="696.0" width="159.0" height="6.0" rx="1.0" fill="#F2F8F5" stroke="#34786B" stroke-width="1.5"/>
+<rect x="105.0" y="696.0" width="124.0" height="6.0" rx="1.0" fill="#C4DDD5" stroke="#34786B" stroke-width="1.5"/>
+<rect x="419.0" y="507.0" width="380.0" height="220.0" rx="5.0" fill="#F2F8F5" stroke="#34786B" stroke-width="1.5"/>
+<text x="438.0" y="535.64" font-family="DejaVu Sans" font-size="18.0" font-weight="700" fill="#34786B" text-anchor="start">2  Redundancy reranking</text>
+<text x="779.0" y="558.78" font-family="DejaVu Sans" font-size="11.0" font-weight="700" fill="#34786B" text-anchor="end">OVERLAP</text>
+<text x="477.0" y="558.78" font-family="DejaVu Sans" font-size="11.0" font-weight="400" fill="#637180" text-anchor="start">Rank: old → new</text>
+<text x="438.0" y="584.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#34786B" text-anchor="start">s₇</text>
+<rect x="477.0" y="566.0" width="73.0" height="25.0" rx="4.0" fill="white" stroke="#34786B" stroke-width="1.5"/>
+<text x="513.0" y="583.72" font-family="DejaVu Sans" font-size="14.0" font-weight="700" fill="#34786B" text-anchor="middle">3 → 1</text>
+<text x="566.0" y="583.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#34786B" text-anchor="start">Low overlap</text>
+<text x="438.0" y="618.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#34786B" text-anchor="start">s₅</text>
+<rect x="477.0" y="600.0" width="73.0" height="25.0" rx="4.0" fill="white" stroke="#34786B" stroke-width="1.5"/>
+<text x="513.0" y="617.72" font-family="DejaVu Sans" font-size="14.0" font-weight="700" fill="#34786B" text-anchor="middle">2 → 2</text>
+<text x="566.0" y="617.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#34786B" text-anchor="start">Some overlap</text>
+<text x="438.0" y="652.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#637180" text-anchor="start">s₂</text>
+<rect x="477.0" y="634.0" width="73.0" height="25.0" rx="4.0" fill="white" stroke="#9DBFB7" stroke-width="1.5"/>
+<text x="513.0" y="651.72" font-family="DejaVu Sans" font-size="14.0" font-weight="700" fill="#637180" text-anchor="middle">1 → 3</text>
+<text x="566.0" y="651.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#637180" text-anchor="start">High overlap</text>
+<polyline points="437,666 781,666" fill="none" stroke="#D8DFE3" stroke-width="1"/>
+<text x="438.0" y="699.7" font-family="DejaVu Sans" font-size="15.0" font-weight="700" fill="#34786B" text-anchor="start">Fixed scores − redundancy</text>
+<polyline points="358,617 409,617" fill="none" stroke="#9DBFB7" stroke-width="2"/>
+<polygon points="409.0,617.0 400.0,612.95 400.0,621.05" fill="#9DBFB7"/>
+<text x="370.0" y="598.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#34786B" text-anchor="start">pᵢ</text>
+<rect x="860.0" y="507.0" width="331.0" height="220.0" rx="5.0" fill="white" stroke="#34786B" stroke-width="1.5"/>
+<text x="879.0" y="535.64" font-family="DejaVu Sans" font-size="18.0" font-weight="700" fill="#34786B" text-anchor="start">3  Budget-aware selection</text>
+<text x="879.0" y="564.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#637180" text-anchor="start">Sentence length</text>
+<text x="1082.0" y="573.76" font-family="DejaVu Sans" font-size="12.0" font-weight="700" fill="#34786B" text-anchor="middle">90 left</text>
+<text x="879.0" y="604.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#34786B" text-anchor="start">s₇</text>
+<text x="945.0" y="604.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#34786B" text-anchor="end">65</text>
+<rect x="956.0" y="590.0" width="91.0" height="16.0" rx="2.0" fill="#34786B" stroke="#34786B" stroke-width="1.5"/>
+<text x="1123.0" y="604.76" font-family="DejaVu Sans" font-size="12.0" font-weight="700" fill="#34786B" text-anchor="start">select</text>
+<text x="879.0" y="642.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#34786B" text-anchor="start">s₅</text>
+<text x="945.0" y="642.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#34786B" text-anchor="end">110</text>
+<rect x="956.0" y="628.0" width="154.0" height="16.0" rx="2.0" fill="#34786B" stroke="#34786B" stroke-width="1.5"/>
+<text x="1123.0" y="642.76" font-family="DejaVu Sans" font-size="12.0" font-weight="700" fill="#34786B" text-anchor="start">skip</text>
+<text x="879.0" y="680.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#637180" text-anchor="start">s₂</text>
+<text x="945.0" y="680.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#637180" text-anchor="end">35</text>
+<rect x="956.0" y="666.0" width="49.0" height="16.0" rx="2.0" fill="#34786B" stroke="#9DBFB7" stroke-width="1.5"/>
+<text x="1123.0" y="680.76" font-family="DejaVu Sans" font-size="12.0" font-weight="700" fill="#637180" text-anchor="start">fits</text>
+<polyline points="1082,581 1082,690" fill="none" stroke="#34786B" stroke-width="1.8" stroke-dasharray="6 4"/>
+<text x="879.0" y="713.76" font-family="DejaVu Sans" font-size="12.0" font-weight="400" fill="#253346" text-anchor="start">Select the highest-ranked sentence that fits</text>
+<polyline points="799,617 850,617" fill="none" stroke="#9DBFB7" stroke-width="2"/>
+<polygon points="850.0,617.0 841.0,612.95 841.0,621.05" fill="#9DBFB7"/>
+<rect x="1310.0" y="507.0" width="237.0" height="220.0" rx="5.0" fill="white" stroke="#9DBFB7" stroke-width="1.5"/>
+<text x="1328.0" y="535.64" font-family="DejaVu Sans" font-size="18.0" font-weight="700" fill="#34786B" text-anchor="start">Final summary</text>
+<rect x="1341.0" y="556.0" width="177.0" height="114.0" rx="5.0" fill="white" stroke="#34786B" stroke-width="1.5"/>
+<text x="1355.0" y="577.74" font-family="DejaVu Sans" font-size="13.0" font-weight="700" fill="#34786B" text-anchor="start">Source order</text>
+<text x="1353.0" y="604.74" font-family="DejaVu Sans" font-size="13.0" font-weight="700" fill="#34786B" text-anchor="start">s₁</text>
+<rect x="1381.0" y="592.0" width="119.0" height="16.0" rx="2.0" fill="#F2F8F5" stroke="#34786B" stroke-width="1.5"/>
+<polyline points="1389,600 1485,600" fill="none" stroke="#34786B" stroke-width="1.4"/>
+<text x="1353.0" y="627.74" font-family="DejaVu Sans" font-size="13.0" font-weight="700" fill="#34786B" text-anchor="start">s₄</text>
+<rect x="1381.0" y="615.0" width="119.0" height="16.0" rx="2.0" fill="#F2F8F5" stroke="#34786B" stroke-width="1.5"/>
+<polyline points="1389,623 1472,623" fill="none" stroke="#34786B" stroke-width="1.4"/>
+<text x="1353.0" y="650.74" font-family="DejaVu Sans" font-size="13.0" font-weight="700" fill="#34786B" text-anchor="start">s₇</text>
+<rect x="1381.0" y="638.0" width="119.0" height="16.0" rx="2.0" fill="#F2F8F5" stroke="#34786B" stroke-width="1.5"/>
+<polyline points="1389,646 1459,646" fill="none" stroke="#34786B" stroke-width="1.4"/>
+<text x="1328.0" y="703.76" font-family="DejaVu Sans" font-size="12.0" font-weight="400" fill="#253346" text-anchor="start">Whole sentences, source order</text>
+<polyline points="1191,617 1300,617" fill="none" stroke="#9DBFB7" stroke-width="2"/>
+<polygon points="1300.0,617.0 1291.0,612.95 1291.0,621.05" fill="#9DBFB7"/>
+<text x="1251.0" y="582.76" font-family="DejaVu Sans" font-size="12.0" font-weight="700" fill="#34786B" text-anchor="middle">STOP</text>
+<text x="1251.0" y="644.76" font-family="DejaVu Sans" font-size="12.0" font-weight="400" fill="#637180" text-anchor="middle">No fit /</text>
+<text x="1251.0" y="663.76" font-family="DejaVu Sans" font-size="12.0" font-weight="400" fill="#637180" text-anchor="middle">slot limit</text>
+<rect x="419.0" y="811.0" width="380.0" height="161.0" rx="5.0" fill="white" stroke="#34786B" stroke-width="1.5"/>
+<text x="438.0" y="838.66" font-family="DejaVu Sans" font-size="17.0" font-weight="700" fill="#34786B" text-anchor="start">Current state Sₜ</text>
+<rect x="680.0" y="822.0" width="43.0" height="26.0" rx="4.0" fill="white" stroke="#34786B" stroke-width="1.5"/>
+<text x="701.5" y="839.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#34786B" text-anchor="middle">s₁</text>
+<rect x="731.0" y="822.0" width="43.0" height="26.0" rx="4.0" fill="white" stroke="#34786B" stroke-width="1.5"/>
+<text x="752.5" y="839.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#34786B" text-anchor="middle">s₄</text>
+<polyline points="439,868 443,872 451,862" fill="none" stroke="#34786B" stroke-width="2"/>
+<text x="460.0" y="874.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#34786B" text-anchor="start">Selected set</text>
+<rect x="620.0" y="852.0" width="159.0" height="26.0" rx="4.0" fill="white" stroke="#34786B" stroke-width="1.5"/>
+<text x="699.5" y="869.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#34786B" text-anchor="middle">Fixed scores</text>
+<text x="438.0" y="901.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#253346" text-anchor="start">Candidate bigram sets</text>
+<text x="438.0" y="926.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#253346" text-anchor="start">Redundancy with selected sentences</text>
+<text x="438.0" y="952.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#34786B" text-anchor="start">Budget: 90 characters / 6 slots</text>
+<rect x="860.0" y="811.0" width="331.0" height="161.0" rx="5.0" fill="#F2F8F5" stroke="#34786B" stroke-width="1.5"/>
+<text x="879.0" y="838.66" font-family="DejaVu Sans" font-size="17.0" font-weight="700" fill="#34786B" text-anchor="start">Update state: add s₇</text>
+<text x="879.0" y="863.76" font-family="DejaVu Sans" font-size="12.0" font-weight="400" fill="#637180" text-anchor="start">Remaining characters</text>
+<text x="879.0" y="883.76" font-family="DejaVu Sans" font-size="12.0" font-weight="400" fill="#253346" text-anchor="start">Before</text>
+<rect x="940.0" y="872.0" width="126.0" height="13.0" rx="2.0" fill="#F2F8F5" stroke="#34786B" stroke-width="1.5"/>
+<rect x="940.0" y="872.0" width="125.99999999999999" height="13.0" rx="2.0" fill="#34786B" stroke="#34786B" stroke-width="1.5"/>
+<text x="1078.0" y="883.74" font-family="DejaVu Sans" font-size="13.0" font-weight="700" fill="#34786B" text-anchor="start">90</text>
+<text x="879.0" y="909.76" font-family="DejaVu Sans" font-size="12.0" font-weight="400" fill="#253346" text-anchor="start">After</text>
+<rect x="940.0" y="898.0" width="126.0" height="13.0" rx="2.0" fill="#F2F8F5" stroke="#34786B" stroke-width="1.5"/>
+<rect x="940.0" y="898.0" width="35.0" height="13.0" rx="2.0" fill="#34786B" stroke="#34786B" stroke-width="1.5"/>
+<text x="1078.0" y="909.74" font-family="DejaVu Sans" font-size="13.0" font-weight="700" fill="#34786B" text-anchor="start">25</text>
+<text x="879.0" y="934.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#253346" text-anchor="start">Slots: 6 → 5</text>
+<text x="879.0" y="957.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#253346" text-anchor="start">Update overlap; remove s₇ from pool</text>
+<polyline points="1025,727 1025,801" fill="none" stroke="#34786B" stroke-width="2"/>
+<polygon points="1025.0,801.0 1029.05,792.0 1020.95,792.0" fill="#34786B"/>
+<text x="1040.0" y="776.74" font-family="DejaVu Sans" font-size="13.0" font-weight="700" fill="#34786B" text-anchor="start">SELECT s₇</text>
+<polyline points="860,907 809,907" fill="none" stroke="#34786B" stroke-width="2"/>
+<polygon points="809.0,907.0 818.0,911.05 818.0,902.95" fill="#34786B"/>
+<polyline points="609,811 609,737" fill="none" stroke="#34786B" stroke-width="2"/>
+<polygon points="609.0,737.0 604.95,746.0 613.05,746.0" fill="#34786B"/>
+<text x="624.0" y="780.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#34786B" text-anchor="start">Next step</text>
+<rect x="50.0" y="824.0" width="308.0" height="121.0" rx="5.0" fill="#F2F8F5" stroke="#9DBFB7" stroke-width="1.5"/>
+<text x="68.0" y="850.68" font-family="DejaVu Sans" font-size="16.0" font-weight="700" fill="#253346" text-anchor="start">Shared budget</text>
+<text x="68.0" y="882.68" font-family="DejaVu Sans" font-size="16.0" font-weight="400" fill="#253346" text-anchor="start">≤ 450 characters</text>
+<text x="68.0" y="914.68" font-family="DejaVu Sans" font-size="16.0" font-weight="400" fill="#253346" text-anchor="start">≤ 8 complete sentences</text>
+<text x="30.0" y="1030.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#637180" text-anchor="start">References: training / diagnostic Oracle only.   Dev: no dynamic training.   Official test: sealed during development.</text>
+<text x="30.0" y="1055.72" font-family="DejaVu Sans" font-size="14.0" font-weight="400" fill="#637180" text-anchor="start">Illustrative scores, ranks and lengths.</text>
+<polyline points="32,1091 79,1091" fill="none" stroke="#D6B788" stroke-width="2"/>
+<polygon points="79.0,1091.0 70.0,1086.95 70.0,1095.05" fill="#D6B788"/>
+<text x="91.0" y="1095.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#253346" text-anchor="start">Data flow</text>
+<polyline points="245,1091 292,1091" fill="none" stroke="#A76B24" stroke-width="2" stroke-dasharray="6 4"/>
+<polygon points="292.0,1091.0 283.0,1086.95 283.0,1095.05" fill="#A76B24"/>
+<text x="304.0" y="1095.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#253346" text-anchor="start">Training supervision</text>
+<rect x="555.0" y="1081.0" width="29.0" height="19.0" rx="3.0" fill="white" stroke="#34786B" stroke-width="1.5"/>
+<text x="596.0" y="1095.74" font-family="DejaVu Sans" font-size="13.0" font-weight="400" fill="#253346" text-anchor="start">Reranking module</text>
+</svg>

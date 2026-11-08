@@ -1,0 +1,16 @@
+[
+  {
+    "prediction": "/root/autodl-tmp/sende_rerun_20261027/test_inference/sende/run_1/dev_predictions.jsonl",
+    "documents": 948,
+    "rouge_1": 59.712627154168594,
+    "rouge_2": 41.11719120025719,
+    "rouge_l": 50.646424296072325,
+    "fact_recall": 66.8964381405046,
+    "source_fact_support": 100.0,
+    "fact_f1": 45.12151763768893,
+    "mean_characters": 391.7700421940928,
+    "mean_sentences": 7.172995780590718,
+    "empty_summaries": 0,
+    "budget_violations": 0
+  }
+]

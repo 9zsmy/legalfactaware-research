@@ -1,0 +1,10 @@
+{
+  "training_candidates": 428766,
+  "oracle_positives": 47150,
+  "matched_positives": 47150,
+  "positive_counts_exactly_match": true,
+  "candidate_label_agreement": 0.9362216220502558,
+  "positive_jaccard_global": 0.5504003419758973,
+  "document_selection_equal_count": 737,
+  "mean_document_positive_jaccard": 0.573768424889172
+}

@@ -1,0 +1,16 @@
+{
+  "cases": 948,
+  "threshold": 0.9,
+  "rouge_1": 0.5759193693844965,
+  "rouge_2": 0.39387956712278677,
+  "rouge_l": 0.490009986758451,
+  "sentence_f1": 0.5319756186140728,
+  "mean_characters": 342.93037974683546,
+  "mean_sentences": 6.129746835443038,
+  "empty_summaries": 0,
+  "budget_violations": 0,
+  "hard_truncations": 0,
+  "source_order": true,
+  "complete_sentences": true,
+  "rouge_mean": 0.4866029744219114
+}

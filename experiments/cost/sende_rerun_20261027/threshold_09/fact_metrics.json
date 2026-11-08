@@ -1,0 +1,17 @@
+{
+  "configuration": "SENDE fixed threshold 0.9",
+  "documents": 948,
+  "rouge_1": 57.59193693844965,
+  "rouge_2": 39.38795671227868,
+  "rouge_l": 49.000998675845096,
+  "fact_recall": 62.71813936766468,
+  "source_fact_support": 100.0,
+  "fact_f1": 43.911491190257024,
+  "sentence_f1": 53.19756186140728,
+  "mean_characters": 342.93037974683546,
+  "mean_sentences": 6.129746835443038,
+  "empty_summaries": 0,
+  "budget_violations": 0,
+  "hard_truncations": 0,
+  "prediction_sha256": "90d5edfc86fed6ea4f04fa5f24d0fdfb6517d7652728f540e3aa892f9e4b15c2"
+}

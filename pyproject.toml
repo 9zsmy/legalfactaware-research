@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "legalfactaware-research"
+version = "0.1.0"
+description = "Private research artifact for fixed-budget legal summarization experiments"
+requires-python = ">=3.10"
+license = {text = "All Rights Reserved"}
+
+[tool.setuptools]
+packages = []
+

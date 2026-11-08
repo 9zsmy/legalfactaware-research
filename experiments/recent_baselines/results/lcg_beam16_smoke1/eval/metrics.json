@@ -1,0 +1,278 @@
+{
+  "budget": 450,
+  "methods": {
+    "LegalFactAware-v2.5-B": {
+      "method": "LegalFactAware-v2.5-B",
+      "cases": 1,
+      "rouge_1_f1": 0.6552217453505007,
+      "rouge_2_f1": 0.5222381635581061,
+      "rouge_l_f1": 0.5436337625178826,
+      "expression_f1_document_macro": 0.3333333333333333,
+      "source_expression_support": 1.0,
+      "mean_characters": 441,
+      "median_characters": 441,
+      "p95_characters": 441.0,
+      "max_characters": 441,
+      "mean_absolute_error_to_450": 9,
+      "within_10_characters": 1,
+      "within_25_characters": 1,
+      "within_50_characters": 1,
+      "budget_violation_count": 0,
+      "budget_violation_rate": 0,
+      "expression_by_type": {
+        "amount": {
+          "reference_instances": 0,
+          "predicted_instances": 4,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": null,
+          "conditional_document_macro_recall": null,
+          "conditional_document_macro_f1": null
+        },
+        "date": {
+          "reference_instances": 0,
+          "predicted_instances": 0,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": null,
+          "conditional_document_macro_recall": null,
+          "conditional_document_macro_f1": null
+        },
+        "law": {
+          "reference_instances": 8,
+          "predicted_instances": 8,
+          "true_positive_instances": 8,
+          "reference_nonempty_documents": 1,
+          "micro_precision": 1.0,
+          "micro_recall": 1.0,
+          "micro_f1": 1.0,
+          "conditional_document_macro_precision": 1.0,
+          "conditional_document_macro_recall": 1.0,
+          "conditional_document_macro_f1": 1.0
+        },
+        "decision": {
+          "reference_instances": 1,
+          "predicted_instances": 3,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 1,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": 0.0,
+          "conditional_document_macro_recall": 0.0,
+          "conditional_document_macro_f1": 0.0
+        }
+      }
+    },
+    "LCG-beam16-upper": {
+      "method": "LCG-beam16-upper",
+      "cases": 1,
+      "rouge_1_f1": 0.4520255863539446,
+      "rouge_2_f1": 0.25695931477516065,
+      "rouge_l_f1": 0.3070362473347548,
+      "expression_f1_document_macro": 0.0,
+      "source_expression_support": 1.0,
+      "mean_characters": 211,
+      "median_characters": 211,
+      "p95_characters": 211.0,
+      "max_characters": 211,
+      "mean_absolute_error_to_450": 239,
+      "within_10_characters": 0,
+      "within_25_characters": 0,
+      "within_50_characters": 0,
+      "budget_violation_count": 0,
+      "budget_violation_rate": 0,
+      "expression_by_type": {
+        "amount": {
+          "reference_instances": 0,
+          "predicted_instances": 3,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": null,
+          "conditional_document_macro_recall": null,
+          "conditional_document_macro_f1": null
+        },
+        "date": {
+          "reference_instances": 0,
+          "predicted_instances": 0,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": null,
+          "conditional_document_macro_recall": null,
+          "conditional_document_macro_f1": null
+        },
+        "law": {
+          "reference_instances": 8,
+          "predicted_instances": 0,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 1,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": 0.0,
+          "conditional_document_macro_recall": 0.0,
+          "conditional_document_macro_f1": 0.0
+        },
+        "decision": {
+          "reference_instances": 1,
+          "predicted_instances": 0,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 1,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": 0.0,
+          "conditional_document_macro_recall": 0.0,
+          "conditional_document_macro_f1": 0.0
+        }
+      }
+    },
+    "LCG-beam16-exact": {
+      "method": "LCG-beam16-exact",
+      "cases": 1,
+      "rouge_1_f1": 0.45786516853932585,
+      "rouge_2_f1": 0.23098591549295774,
+      "rouge_l_f1": 0.27247191011235955,
+      "expression_f1_document_macro": 0.0,
+      "source_expression_support": 0.8333333333333334,
+      "mean_characters": 454,
+      "median_characters": 454,
+      "p95_characters": 454.0,
+      "max_characters": 454,
+      "mean_absolute_error_to_450": 4,
+      "within_10_characters": 1,
+      "within_25_characters": 1,
+      "within_50_characters": 1,
+      "budget_violation_count": 1,
+      "budget_violation_rate": 1,
+      "expression_by_type": {
+        "amount": {
+          "reference_instances": 0,
+          "predicted_instances": 5,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": null,
+          "conditional_document_macro_recall": null,
+          "conditional_document_macro_f1": null
+        },
+        "date": {
+          "reference_instances": 0,
+          "predicted_instances": 0,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": null,
+          "conditional_document_macro_recall": null,
+          "conditional_document_macro_f1": null
+        },
+        "law": {
+          "reference_instances": 8,
+          "predicted_instances": 1,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 1,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": 0.0,
+          "conditional_document_macro_recall": 0.0,
+          "conditional_document_macro_f1": 0.0
+        },
+        "decision": {
+          "reference_instances": 1,
+          "predicted_instances": 0,
+          "true_positive_instances": 0,
+          "reference_nonempty_documents": 1,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "micro_f1": 0.0,
+          "conditional_document_macro_precision": 0.0,
+          "conditional_document_macro_recall": 0.0,
+          "conditional_document_macro_f1": 0.0
+        }
+      }
+    }
+  },
+  "paired_bootstrap": [
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "LCG-beam16-upper",
+      "metric": "rouge_1_f1",
+      "mean_delta": 0.20319615899655613,
+      "ci95_low": 0.20319615899655613,
+      "ci95_high": 0.20319615899655613
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "LCG-beam16-upper",
+      "metric": "rouge_2_f1",
+      "mean_delta": 0.2652788487829455,
+      "ci95_low": 0.2652788487829455,
+      "ci95_high": 0.2652788487829455
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "LCG-beam16-upper",
+      "metric": "rouge_l_f1",
+      "mean_delta": 0.23659751518312783,
+      "ci95_low": 0.23659751518312783,
+      "ci95_high": 0.23659751518312783
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "LCG-beam16-upper",
+      "metric": "expression_f1_document_macro",
+      "mean_delta": 0.3333333333333333,
+      "ci95_low": 0.3333333333333333,
+      "ci95_high": 0.3333333333333333
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "LCG-beam16-exact",
+      "metric": "rouge_1_f1",
+      "mean_delta": 0.19735657681117486,
+      "ci95_low": 0.19735657681117486,
+      "ci95_high": 0.19735657681117486
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "LCG-beam16-exact",
+      "metric": "rouge_2_f1",
+      "mean_delta": 0.2912522480651484,
+      "ci95_low": 0.2912522480651484,
+      "ci95_high": 0.2912522480651484
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "LCG-beam16-exact",
+      "metric": "rouge_l_f1",
+      "mean_delta": 0.2711618524055231,
+      "ci95_low": 0.2711618524055231,
+      "ci95_high": 0.2711618524055231
+    },
+    {
+      "method_a": "LegalFactAware-v2.5-B",
+      "method_b": "LCG-beam16-exact",
+      "metric": "expression_f1_document_macro",
+      "mean_delta": 0.3333333333333333,
+      "ci95_low": 0.3333333333333333,
+      "ci95_high": 0.3333333333333333
+    }
+  ]
+}

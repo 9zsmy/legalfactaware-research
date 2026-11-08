@@ -1,0 +1,15 @@
+{
+  "experiment": "published UK-Abs SummaRuNNer checkpoint audit",
+  "checkpoint": "assets/SummaRunner/SummaRunner/checkpoints/UKRNN_RNN_seed_1.pt",
+  "word2id": "/tmp/weihang_word2id.json",
+  "word2id_entries": 153824,
+  "checkpoint_embedding_rows": 153824,
+  "tokenization": "raw",
+  "decode_policy": "top15-fit",
+  "candidate_cap": 100,
+  "sentence_token_cap": 50,
+  "documents": 100,
+  "budget_violations_whitespace": 0,
+  "source_backed_primary": true,
+  "elapsed_seconds_all_configurations": 11.828141212463379
+}

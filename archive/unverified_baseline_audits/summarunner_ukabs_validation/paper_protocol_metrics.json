@@ -1,0 +1,26 @@
+{
+  "method": "SummaRuNNer restricted-faithful UK-Abs retraining",
+  "documents": 100,
+  "py_rouge_distribution": "py-rouge==1.1",
+  "paper_protocol": {
+    "max_n": 2,
+    "limit_length": false
+  },
+  "f1_percent": {
+    "rouge-1": 63.951263328914386,
+    "rouge-2": 29.759179348105825,
+    "rouge-l": 61.48778164558646
+  },
+  "paper_f1_percent": {
+    "rouge-1": 50.2,
+    "rouge-2": 20.5,
+    "rouge-l": 23.7
+  },
+  "difference_reproduction_minus_paper": {
+    "rouge-1": 13.751263328914384,
+    "rouge-2": 9.259179348105825,
+    "rouge-l": 37.78778164558646
+  },
+  "budget_violations": 0,
+  "official_inabs_test_read": false
+}

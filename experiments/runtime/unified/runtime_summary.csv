@@ -1,0 +1,6 @@
+method,repeat_1_s,repeat_2_s,repeat_3_s,median_s,docs_per_s,peak_gpu_memory_mib,documents_per_repeat,device_note
+LegalFactAware,17.081,17.070,17.467,17.081,55.149,0,942,CPU inference; nvidia-smi idle reading was 1 MiB
+SSE,5.159,5.007,5.047,5.047,186.646,4745,942,GPU; prepared tokenized input
+MemSum,35.449,35.784,35.891,35.784,26.325,2229,942,GPU; prepared tokenized input
+SENDE,5.134,5.076,5.048,5.076,185.579,473,942,GPU; cached sentence embeddings
+TermDiffuSum,1314.644,1325.366,1326.562,1325.366,0.711,5737,942,GPU; adapted preprocessed input
