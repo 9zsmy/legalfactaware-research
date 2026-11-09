@@ -1,19 +1,25 @@
-# Private GitHub upload
+# GitHub publication record
 
-The repository is prepared locally on branch `main`. Do not make it public.
+The repository is published from local branch `main` at:
+
+<https://github.com/9zsmy/legalfactaware-research>
+
+Its intended visibility is `PUBLIC`. Raw datasets, model weights, credentials,
+and raw legal-document predictions remain excluded from version control.
 
 ## GitHub CLI route
 
-After GitHub connectivity and authentication are available:
+The repository was created privately, audited, and then explicitly made public.
+For a fresh reconstruction, authenticate and create the repository as follows:
 
 ```bash
 gh auth login --hostname github.com --git-protocol https --web --scopes repo,workflow
 gh repo create legalfactaware-research \
-  --private \
+  --public \
   --source=. \
   --remote=origin \
   --push \
-  --description "Private LegalFactAware research code and experiment artifacts"
+  --description "LegalFactAware research code and experiment artifacts"
 ```
 
 Verify the outcome:
@@ -24,11 +30,11 @@ git remote -v
 git status --short
 ```
 
-The expected visibility is `PRIVATE` and the expected default branch is `main`.
+The expected visibility is `PUBLIC` and the expected default branch is `main`.
 
 ## Existing empty repository route
 
-If the private repository is created in the GitHub interface first:
+If an empty repository is created in the GitHub interface first:
 
 ```bash
 git remote add origin https://github.com/OWNER/legalfactaware-research.git

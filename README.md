@@ -1,8 +1,8 @@
 # LegalFactAware Research Repository
 
-Private research repository for **LegalFactAware**, a fixed-budget extractive legal summarization system using summary-level membership supervision, a static sentence scorer, and redundancy-aware complete-candidate decoding.
+Public research-artifact repository for **LegalFactAware**, a fixed-budget extractive legal summarization system using summary-level membership supervision, a static sentence scorer, and redundancy-aware complete-candidate decoding.
 
-> Repository status: research artifact. The code, experiment identities, and aggregate results are preserved; datasets, model weights, credentials, and raw legal-document predictions are intentionally excluded.
+> Repository status: public research artifact. The code, experiment identities, and aggregate results are preserved; datasets, model weights, credentials, and raw legal-document predictions are intentionally excluded.
 
 ## Repository map
 
